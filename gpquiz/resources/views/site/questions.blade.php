@@ -24,7 +24,7 @@
                 <span class="questao">{{$question->question}}</span>
 
                 @if($question->image)
-                    <img src="{{ url("public/storage/question/{$question->image}") }}" class="img-responsive" alt="">
+                    <img src="{{ url("/storage/question/{$question->image}") }}" class="img-responsive" alt="">
                 @endif
 
                 @foreach($question->answers as $answer)

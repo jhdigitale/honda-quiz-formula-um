@@ -37,7 +37,7 @@
                           <input type="text" id="answer" class="form-control" value="{{ $question->answer }}" name="answer" >
                       </div>
 
-                      <img src="{{ url("/public/storage/question/{$question->image}") }}" class="img-responsive" width="100%" alt="">
+                      <img src="{{ url("/storage/question/{$question->image}") }}" class="img-responsive" width="100%" alt="">
 
                       <input type="file" name="image" id="image" accept="image/*"/>
 
