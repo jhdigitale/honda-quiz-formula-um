@@ -40,7 +40,7 @@
                               <input class="form-control" placeholder="CPF" data-format="cpf" name="cpf" required="required">
                           </div>
                           <div class="col-md-4 esp-margem planta no-padding-left">
-                              <select class="select-control" name="local" required="required" placeholder="PLANTA">
+                              <select class="" name="local" required="required" placeholder="PLANTA">
                                   <option value="">UNIDADES</option>
                                   <option value="Manaus">Manaus</option>
                                   <option value="Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides">Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides</option>

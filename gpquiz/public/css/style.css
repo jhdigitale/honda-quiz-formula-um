@@ -30,6 +30,7 @@ body {
   background-position: center bottom;
   background-size: cover;
   min-height: 930px;
+  background-position-y: -250px;
 }
 
 .corpo.carro {
