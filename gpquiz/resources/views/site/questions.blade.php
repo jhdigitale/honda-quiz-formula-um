@@ -32,7 +32,7 @@
                 @endforeach
             </div>
 
-            <form id="enviar-questao" method="POST" action="/perguntas/{{$question->id}}/salvar">
+            <form id="enviar-questao" method="POST" action="/gp2018/perguntas/{{$question->id}}/salvar">
 
                 {{ csrf_field() }}
 
@@ -66,7 +66,7 @@
 
                 $("#enviar-questao").submit();
             } else {
-                alert('Favor selercionar uma resposta');
+                alert('Favor selecionar uma resposta');
             }
 
         });

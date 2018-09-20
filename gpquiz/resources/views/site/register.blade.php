@@ -50,7 +50,7 @@
                           <div class="clearfix"></div>
                           <br>
                           <div class="col-md-12" style="color:#000;">
-                              <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gp2018/regulamento">regulamento</a> da ação<br></b></span>
+                              <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gp2018/regulamento" target="_blank">regulamento</a> da ação<br></b></span>
                           </div>
                           <br><br>
                           <div class="col-md-8 col-md-offset-2 esp-margem">
