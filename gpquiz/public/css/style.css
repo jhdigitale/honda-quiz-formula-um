@@ -423,11 +423,22 @@ footer {
 .planta{
   background-color: rgba(255, 255, 255, 0.9);
   margin-top: 0px;
-  padding-bottom: 11px;
+  padding-bottom: 5px;
   padding-top: 5px;
   padding-right: 20px;
   max-width: 31.5%;
   max-height: 42px;
+  height: 42px;
+  line-height: 34px;
+}
+.planta select{
+  width: 100%;
+  border: 0px;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://www.freeiconspng.com/uploads/arrow-down-icon-png-4.png) 96% / 7% no-repeat;
 }
 .cpf{
   padding-left: 0px;

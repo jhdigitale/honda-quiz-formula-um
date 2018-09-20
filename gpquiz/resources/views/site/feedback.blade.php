@@ -12,7 +12,7 @@
                       <p>Baixe suas respostas para checar com o gabarito, que será divulgado, e ver como foi seu desempenho.</p>
                   </div>
                   <br>
-                  <a href="/gpquiz2018/gabarito" target="_blank" class="button" id="parabens">DOWNLOAD</a>
+                  <a href="/gp2018/gabarito" target="_blank" class="button" id="parabens">DOWNLOAD</a>
               </div>
           </div>
       </div>
@@ -23,7 +23,7 @@
   @section('script')
 
           $("#parabens").click(function(){
-            window.location.href = "/gpquiz2018/parabens";
+            window.location.href = "/gp2018/parabens";
           });
 
   @endsection

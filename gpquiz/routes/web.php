@@ -12,7 +12,7 @@
 */
 
 
-Route::prefix('gpquiz2018')->group(function(){
+Route::prefix('gp2018')->group(function(){
 
     // Site
     Route::get('/', function () {

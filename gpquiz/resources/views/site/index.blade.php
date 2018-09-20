@@ -20,7 +20,7 @@
           <div class="box-colored">
             <p>O GP Quiz da Honda tem três etapas com os temas:
                 Competições da Honda, Filosofia Honda e Fórmula 1. Estude cada circuito e fique ainda mais por dentro dos temas!</p>
-              <a href="/gpquiz2018/cockpit" class="button">CONFIRA</a>
+              <a href="/gp2018/cockpit" class="button">CONFIRA</a>
           </div>
 
         </div>
@@ -33,7 +33,7 @@
                 <br><br>
                 Vamos nessa?
             </p>
-              <a href="/gpquiz2018/cadastro" class="button">INICIAR</a>
+              <a href="/gp2018/cadastro" class="button">INICIAR</a>
           </div>
 
         </div>

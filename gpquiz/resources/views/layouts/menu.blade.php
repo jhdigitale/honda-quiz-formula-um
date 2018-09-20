@@ -11,10 +11,10 @@
 <div class="sidebarmenu">
      <ul>
       <li>
-        <a href="/gpquiz2018">GP QUIZ 2018</a>
+        <a href="/gp2018">GP QUIZ 2018</a>
       </li>
       <li>
-        <a href="/gpquiz2018/regulamento">Regulamento</a>
+        <a href="/gp2018/regulamento">Regulamento</a>
       </li>
      </ul>
 </div>
