@@ -6,7 +6,7 @@
 
 
         <div class="col-md-12 logo text-center logo">
-            <img src="assets/logo.png">
+            <img src="/assets/logo.png">
         </div>
 
 

@@ -4,7 +4,7 @@
   <div class="col-md-12 corpo">
 
       <div class="col-md-12 logo text-center logo">
-          <img src="assets/logo.png">
+          <img src="/assets/logo.png">
       </div>
       <div class="col-md-6 col-md-offset-3 featured">
           <div class="col-md-10 col-md-offset-1 text-center">
