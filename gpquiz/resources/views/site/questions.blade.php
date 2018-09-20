@@ -60,9 +60,15 @@
     $(function(){
         $('#proxima').click(function(e){
             var resposta = $(".opcoes .button.active").data('resposta');
-            $("#answer").val(resposta);
 
-            $("#enviar-questao").submit();
+            if(resposta != undefined){
+                $("#answer").val(resposta);
+
+                $("#enviar-questao").submit();
+            } else {
+                alert('Favor selercionar uma resposta');
+            }
+
         });
 
         $(".resposta").click(function() {

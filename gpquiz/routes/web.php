@@ -12,31 +12,36 @@
 */
 
 
-// Site
-Route::get('/', function () {
-    return view('site.index');
+Route::prefix('gpquiz2018')->group(function(){
+
+    // Site
+    Route::get('/', function () {
+        return view('site.index');
+    });
+
+    Route::get('/cockpit','RegisterController@cockpit');
+
+    Route::get('/regulamento','RegulationController@index');
+
+    Route::get('/cadastro', 'RegisterController@create');
+
+    Route::post('/cadastro', 'RegisterController@store');
+
+    Route::get('/login', 'RegisterController@login');
+
+    Route::post('/login', 'RegisterController@storeLogin');
+
+    Route::get('/perguntas', 'AwnseredController@index')->name('question');
+
+    Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
+
+    Route::get('/gabarito', 'FeedbackController@index');
+
+    Route::get('/parabens', 'FeedbackController@congratualtions');
+
+    // Admin
+
 });
-
-Route::get('/cockpit','RegisterController@cockpit');
-
-
-Route::get('/cadastro', 'RegisterController@create');
-
-Route::post('/cadastro', 'RegisterController@store');
-
-Route::get('/login', 'RegisterController@login');
-
-Route::post('/login', 'RegisterController@storeLogin');
-
-Route::get('/perguntas', 'AwnseredController@index')->name('question');
-
-Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
-
-Route::get('/gabarito', 'FeedbackController@index');
-
-Route::get('/parabens', 'FeedbackController@congratualtions');
-
-// Admin
 
 Route::prefix('admin')->group(function(){
 

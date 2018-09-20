@@ -23,7 +23,7 @@
                   <div class="clearfix"></div>
 
                   <div class="col-md-12 text-center">
-                      <a href="/cadastro" class="button bordered">ESTOU PREPARADO!</a>
+                      <a href="/gpquiz2018/cadastro" class="button">ESTOU PREPARADO!</a>
                   </div>
 
               </div>

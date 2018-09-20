@@ -273,6 +273,11 @@ h1 {color: white;}
   text-align: center;
   margin-bottom: 10px;
 }
+.button:hover {
+  color:white;
+  text-decoration: underline;
+}
+
 .button.bordered {
 
   border:4px solid #fff;
@@ -419,9 +424,10 @@ footer {
   background-color: rgba(255, 255, 255, 0.9);
   margin-top: 0px;
   padding-bottom: 11px;
-  padding-top: 11px;
+  padding-top: 5px;
   padding-right: 20px;
   max-width: 31.5%;
+  max-height: 42px;
 }
 .cpf{
   padding-left: 0px;

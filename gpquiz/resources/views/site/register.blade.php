@@ -2,8 +2,15 @@
 
   @section ('content')
   <div class="col-md-12 corpo">
+      <small style="
+          position: absolute;
+          left: 10px;
+          bottom: 20px;
+      ">
+                                *Caso não tenha e-mail corporativo, inserir seu e-mail pessoal.
+                            </small>
       <div class="col-md-12 logo text-center logo">
-          <img src="assets/logo.png">
+          <img src="/assets/logo.png">
       </div>
       <div class="col-md-12 featured">
           <div class="">
@@ -14,7 +21,7 @@
                              o formulário corretamente para a corrida começar.</p>
                       </div>
                   </div>
-                  <form method="POST" action="/cadastro" id="form-enviar">
+                  <form method="POST" action="/gpquiz2018/cadastro" id="form-enviar">
 
 
                       {{ csrf_field() }}
@@ -43,9 +50,9 @@
                           <div class="clearfix"></div>
                           <br>
                           <div class="col-md-12" style="color:#000;">
-                              <input type="checkbox" value="true" name="check" id="verificado"><span><b>Li e concordo com o <a href="/regulamento">regulamento</a> da ação<br></b></span>
+                              <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gpquiz2018/regulamento">regulamento</a> da ação<br></b></span>
                           </div>
-                          <br>
+                          <br><br>
                           <div class="col-md-8 col-md-offset-2 esp-margem">
                               <a class="button" id="enviar">CONTINUAR</a>
                           </div>
@@ -53,11 +60,7 @@
                   </form>
                   <div class="clearfix"></div>
                   <br>
-                  <div class="text-center">
-                      <small>
-                          *Caso não tenha e-mail corporativo, inserir seu e-mail pessoal.
-                      </small>
-                  </div>
+
               </div>
           </div>
       </div>
