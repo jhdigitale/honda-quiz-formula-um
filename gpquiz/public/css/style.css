@@ -440,7 +440,7 @@ footer {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(https://www.freeiconspng.com/uploads/arrow-down-icon-png-4.png) 96% / 7% no-repeat;
+  background: url('/assets/bullet-select.png') 96% / 7% no-repeat;
 }
 .cpf{
   padding-left: 0px;
