@@ -31,7 +31,7 @@
                               <input class="form-control" placeholder="NOME" name="name" required="required">
                           </div>
                           <div class="col-md-12 esp-margem email">
-                              <input class="form-control" placeholder="E-MAIL" type="email" name="email" required="required">
+                              <input class="form-control" placeholder="*E-MAIL" type="email" name="email" required="required">
                           </div>
                           <div class="col-md-4 esp-margem matricula no-padding-right">
                               <input class="form-control" placeholder="MATRÍCULA" required="required" name="register">

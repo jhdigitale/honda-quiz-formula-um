@@ -27,7 +27,7 @@ body {
 .corpo {
   background-image: url(../assets/bg.png);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   min-height: 930px;
 }

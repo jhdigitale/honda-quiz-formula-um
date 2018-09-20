@@ -8,8 +8,9 @@
       <div class="col-md-12 logo text-center logo">
         <img src="/assets/logo.png">
 
-          <p>Participe do Quiz de Fórmula 1 e <b>concorra ao<br> ingresso</b>
-              para o GP do Brasil!</p>
+          <p>PARTICIPE DO GP QUIZ DE
+              FÓRMULA 1 E <b>CONCORRA A UM <br> INGRESSO</b>
+              PARA O GP DO BRASIL!</p>
       </div>
 
       <div class="col-md-8 col-md-offset-2 featured">
