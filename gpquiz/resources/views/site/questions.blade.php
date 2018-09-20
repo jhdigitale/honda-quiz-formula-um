@@ -17,7 +17,7 @@
 
 
             <div class="col-md-6 no-padding">
-                {{--<img src="/assets/steps/pista-{{$question->order}}.gif" class="img-responsive">--}}
+                <img src="/assets/steps/pista-{{$question->order}}.gif" class="img-responsive">
             </div>
 
             <div class="col-md-12 no-padding text-left opcoes">
