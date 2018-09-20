@@ -2,8 +2,11 @@
 
 namespace App;
 
+use Illuminate\Auth\MustVerifyEmail;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Contracts\Auth\MustVerifyEmail as MustVerifyEmailContract;
+use App\Awnsered;
 
 class User extends Authenticatable
 {
@@ -26,4 +29,5 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
 }

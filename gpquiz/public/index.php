@@ -21,8 +21,10 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-/*require __DIR__.'/../gpquiz/vendor/autoload.php';*/
+//require __DIR__.'/vendor/autoload.php';
+//require '../vendor/autoload.php';
 require '/var/www/html/gpquiz/vendor/autoload.php';
+
 /*
 |--------------------------------------------------------------------------
 | Turn On The Lights
@@ -35,7 +37,8 @@ require '/var/www/html/gpquiz/vendor/autoload.php';
 |
 */
 
-/*$app = require_once __DIR__.'/../gpquiz/bootstrap/app.php';*/
+//$app = require_once __DIR__.'/bootstrap/app.php';
+//$app = require_once '../bootstrap/app.php';
 $app = require_once '/var/www/html/gpquiz/bootstrap/app.php';
 
 /*
