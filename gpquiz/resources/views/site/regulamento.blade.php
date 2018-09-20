@@ -78,101 +78,52 @@
                     </p>
 
                     <ul>
-                        * Participantes que não preencherem o cadastro corretamente ou que preencherem de modo incompleto (nome completo, e-mail, CPF, matrícula, e planta em que trabalha).
-
-                        * Participantes que praticarem ato ilegal, ilícito ou que atentem contra os objetivos e regras do GP Quiz e deste Regulamento.
-
-                        * Colaboradores que compartilharem quaisquer perguntas e respostas que estejam no quiz durante o período que as participações estejam abertas.
-
-                        * Colaboradores que tentarem se inscrever mais de uma vez serão desclassificados caso seja identificada duplicidade.
+                        <li>
+                            * Participantes que não preencherem o cadastro corretamente ou que preencherem de modo incompleto (nome completo, e-mail, CPF, matrícula, e planta em que trabalha).
+                        </li>
+                        <li>
+                            * Participantes que praticarem ato ilegal, ilícito ou que atentem contra os objetivos e regras do GP Quiz e deste Regulamento.
+                        </li>
+                        <li>
+                            * Colaboradores que compartilharem quaisquer perguntas e respostas que estejam no quiz durante o período que as participações estejam abertas.
+                        </li>
+                        <li>
+                            * Colaboradores que tentarem se inscrever mais de uma vez serão desclassificados caso seja identificada duplicidade.
+                        </li>
                     </ul>
 
-
-
-
-
-                    <h5>PERÍODO DE PARTICIPAÇÃO</h5>
-
                     <p>
-                        O “GP Quiz” estará aberto para a participação de todos os colaboradores pelo site hondaquiz.com.br/gp2018, do dia 26 de setembro a 16 de outubro de 2018
+                        7.2. Toda e qualquer dúvida sobre o GP Quiz poderá ser encaminhada ao time de Comunicação Interna da Honda South America, por meio dos contatos eletrônicos e telefônicos: comunicacao_internahsa@honda.com.br | ramal: 7440 (019 3864-7440).
                     </p>
 
 
-                    <h5>PARTICIPAÇÃO</h5>
+                    <h5>
+                        8. PERDA DO DIREITO AO PRÊMI
+                    </h5>
 
                     <p>
-                        Estão habilitados a participar do GP Quiz, todos os funcionários efetivos da Honda de todas as unidades no Brasil de todos os níveis hierárquicos. Não poderão participar deste GP Quiz qualquer pessoa que esteja diretamente envolvida em qualquer aspecto na organização deste Concurso.
+                        8.1. A perda do direito ao prêmio ocorrerá caso o vencedor e/ou participante estiver impossibilitado de receber o prêmio ou não fizer parte do corpo funcional das unidades da Honda no Brasil até a data do evento, 9,10 e 11 de novembro de 2018.
                         <br>
-                        O Participante, ao aderir à presente promoção fica ciente de que, caso não esteja trabalhando na empresa durante o evento "Grande Prêmio do Brasil de Fórmula 1", não terá direito ao prêmio.
-                    </p>
-
-
-                    <h5>MECÂNICA DO CONCURSO</h5>
-
-                    <p>
-                    Para participar da presente promoção, os participantes deverão obrigatoriamente acessar o site hondaquiz.com.br/gp2018 dentro do prazo de participação acima citado. No site, deverá usar seu nome, CPF e número de matrícula para ganhar acesso ao quiz, que é composto de 20 perguntas sobre a história e filosofia Honda, a participação da empresa em Fórmula 1, as regras deste campeonato e informações sobre outras competições que a Honda participa.
-                    </p>
-
-
-                    <p>
-                    Para responder, cada participante terá 30 segundos para ler o enunciado e escolher a resposta que acredite ser a correta. Ao finalizar as 20 perguntas, o colaborador poderá copiar o gabarito com as respostas que escolheu. No dia 19 de outubro, serão divulgadas as respostas corretas para que ele verifique quantas acertou.
-                    <br>
-                    Caso o participante acerte de 8 a 14 respostas, ele irá concorrer a kits personalizados Honda. De 18 a 20 acertos, ele concorrerá aos ingressos para o GP do Brasil de Fórmula 1 2018 no setor B, nos dias 10, 11 e 12 de novembro, com transporte e estadias pagos.
-                    <br>
-                    O Participante só poderá testar seus conhecimentos 1 (uma) vez sob pena de desclassificação caso sejam identificadas duplicidade.
+                        8.2. Ao inscrever-se nesta ação promocional, o participante declara, expressamente, que está de acordo com todos os termos deste Regulamento.
                         <br>
-                    Serão sorteados 30 kits personalizados e 7 ingressos, distribuídos de maneira proporcional por localidade. Sendo 4 ingressos e 18 kits para Manaus, 2 ingressos e 10 kits para Sumaré, Itirapina, Paulínia, Xangri-lá, Cariacica e Joinville, e 1 ingresso e 2 kits para São Paulo, São Caetano, Indaiatuba, Jaboatão, Recife e Benevides.
+                        8.3. O Participante autoriza a divulgação de fotos e depoimento colhidos durante o evento, de forma impressa, eletrônica, virtual, digital e em vídeos e composições multimídia, a serem distribuídas em quaisquer mídias ou meios de comunicação internos ou externos, a critério da Honda, podendo, ainda, ser veiculadas pela Internet, nos sites e mídias sociais mantidos pela Honda, além de outros sites da Internet, televisão, CD-ROM, DVD, HD DVD, Blu-Ray, jornais e outros meios e suportes de comunicação, nada tendo a opor em relação a tais utilizações.
+                        <br>
+                        8.4. Toda e qualquer situação não prevista neste Regulamento, bem como eventuais casos omissos, serão decididos, exclusivamente, pela Comissão do GP Quiz.
+                    </p>
+
+                    <h5>9. DAS DISPOSIÇÕES GERAIS</h5>
+
+
+                    <p>
+                        9.1. A Honda não será responsável pelo não cumprimento de quaisquer determinações constantes deste Regulamento por conta da ocorrência de eventos de caso fortuito ou força maior, tais como greves, incêndios, enchentes ou quaisquer outras catástrofes naturais que afetem os produtos ou serviços envolvidos nesta Promoção.
+                        <br>
+                        9.2. A Honda se reserva ao direito de alterar, modificar ou complementar o Regulamento ou as regras, premiações e/ou critérios da Promoção a seu exclusivo critério, sem necessidade de prévio aviso aos Participantes. Os Participantes serão comunicados dessas eventuais mudanças e a versão atualizada do Regulamento estará sempre disponível aos Participantes.
+                        <br>
+                        9.3. Os ganhadores, quando do uso do prêmio, deverão agir dentro dos parâmetros da moral, dos bons costumes, da legislação, bem como seguir as instruções e orientações oficiais do evento e da Honda, não se responsabilizando a empresa Promovente por qualquer problema ou discussão de ordem judicial ou não.
                     </p>
 
 
 
-                    <h5>OBJETIVO DA AÇÃO PROMOCIONAL</h5>
-
-                    <p>
-                        O GP Quiz tem como objetivo aumentar o orgulho e motivação para trabalhar na Honda, despertando o Racing spirit.
-
-                    </p>
-
-                    <h5>PRÊMIOS</h5>
-
-                    <p>
-                    Os prêmios oferecidos são intransferíveis e não poderão ser trocados por dinheiro. Não será permitida substituição de prêmio algum, exceto no caso de itens dos kits especiais que tiverem algum defeito de fabricação.
-                    <br>
-                    A Honda se responsabiliza pelo custo de entrega dos prêmios a seus ganhadores, bem como os valores de custos de hospedagem, deslocamento e alimentação dentro do horário estabelecido nas atividades do GP do Brasil. Despesas cobertas pela Honda South America de acordo com as normas da política de viagem corporativa. Os dias de evento não serão contabilizados como hora extra do colaborador.
-                     <br>
-                    DIVULGAÇÃO DOS GANHADORES
-                        <br>
-                    Os resultados dos sorteios, assim como o gabarito do quiz, serão publicados no dia 19 de outubro de 2018 nos canais de comunicação interna corporativa e no site hondaquiz.com.br/gp2018.
-                    </p>
-
-
-                    <h5>DESCLASSIFICAÇÃO</h5>
-
-                    <p>
-                    Serão desclassificados desta promoção:
-                    <br>
-                    * Participantes cujos cadastros não estiverem corretos ou completamente preenchidos (CPF, matrícula e setor).
-                        <br>
-                    * Participantes que praticarem ato ilegal, ilícito ou que atentem contra os objetivos e regras do GP Quiz e deste Regulamento.
-                        <br>
-                    * Colaboradores que compartilharem quaisquer perguntas e respostas que estejam no Quiz durante o período que as participações estejam abertas.
-                        <br>
-                    * Colaboradores que tentarem se inscrever mais de uma vez serão desclassificados caso seja identificado duplicidade.
-                        <br>
-                    Toda e qualquer dúvida sobre o GP Quiz poderá ser encaminhada ao time de Comunicação Interna da Honda South America, por meio dos contatos eletrônicos e telefônicos: comunicacao_internahsa@honda.com.br | ramal: 7440 (019 3864-7440).
-                    </p>
-
-
-                    <h5>PERDA DO DIREITO AO PRÊMIO</h5>
-
-                    <p>
-                        A perda do direito ao prêmio ocorrerá caso o vencedor e/ou participante estiver impossibilitado de receber o prêmio ou não fizer parte do corpo funcional das unidades da Honda no Brasil até a data do evento, 11 de novembro.
-                        <br>
-                        Ao inscrever-se nesta ação promocional, o participante declara, tacitamente, que está de acordo com todos os termos deste Regulamento e autoriza a divulgação interna de fotos e depoimentos colhidos durante o evento.
-                        <br>
-                        Toda e qualquer situação não prevista neste Regulamento, bem como eventuais casos omissos, serão decididos, exclusivamente, pela Comissão do GP Quiz.
-
-                    </p>
 
 
                     {{--<p class="boa-sorte">--}}

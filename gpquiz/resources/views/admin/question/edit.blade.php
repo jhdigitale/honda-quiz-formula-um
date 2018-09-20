@@ -37,11 +37,12 @@
                           <input type="text" id="answer" class="form-control" value="{{ $question->answer }}" name="answer" >
                       </div>
 
-                      <img src="{{ url("/storage/question/{$question->image}") }}" class="img-responsive" width="100%" alt="">
-
                       <input type="file" name="image" id="image" accept="image/*"/>
 
-                      <img src="" />
+
+                      <img src="{{ url("/storage/question/{$question->image}") }}" class="img-responsive" width="100%" alt="">
+
+
                       <br><br>
                       <button type="submit" class="btn btn-primary">Enviar</button>
 

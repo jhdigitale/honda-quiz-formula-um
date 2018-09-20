@@ -119,7 +119,7 @@ class QuestionController extends Controller
 
         $question = $question->update($requestQuestion);
 
-        dd($requestQuestion);
+
 
         return back();
 
