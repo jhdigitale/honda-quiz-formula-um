@@ -54,6 +54,17 @@ return [
             'engine' => null,
         ],
 
+        'mysql_EC2' => array(
+            'driver'    => 'mysql',
+            'host'      => '127.0.0.1:3306',
+            'database' => 'gpquiz',
+            'username' => 'root',
+            'password' => 'h0nd4qu1z',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),
