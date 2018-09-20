@@ -119,6 +119,8 @@ class QuestionController extends Controller
 
         $question = $question->update($requestQuestion);
 
+        dd($question);
+        
         return back();
 
         
