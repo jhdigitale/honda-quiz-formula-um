@@ -3,7 +3,7 @@
         <td text-align="center"><img src="/assets/logo.png"></td>
     </tr>
     <tr>
-        <td><br><br><b>Nome</b>: {{ $data['user']->nome }}</td>
+        <td><br><br><b>Nome</b>: {{ $data['user']->name }}</td>
     </tr>
     <tr>
         <td><b>Email</b>: {{ $data['user']->email }}</td>
