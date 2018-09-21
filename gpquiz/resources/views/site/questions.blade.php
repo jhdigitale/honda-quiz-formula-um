@@ -80,7 +80,7 @@
 
 
         var seconds = 30;
-        var el = $('.tempo i');
+        var el = $('#zero');
 
         function incrementSeconds() {
 
@@ -100,7 +100,7 @@
 
         }
 
-        //var cancel = setInterval(incrementSeconds, 1000);
+        var cancel = setInterval(incrementSeconds, 1000);
 
 
     });

@@ -852,7 +852,8 @@ footer {
 
 
 /* util */
-
-.no-padding-mobile{
-  padding:0px !important;
+@media(max-width:990px){
+  .no-padding-mobile{
+    padding:0px !important;
+  }
 }
