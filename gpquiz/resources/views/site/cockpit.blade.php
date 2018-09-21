@@ -22,7 +22,7 @@
                       <a href="http://www.hondaracingbrasil.com" class="button" target="_blank">Competições da Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
-                      <a href="https://www.linkedin.com/feed/update/urn:li:activity:6440591334104453120" class="button" target="_blank">Filosofia Honda</a>
+                      <a href="https://www.honda.com.br/institucional/sustentabilidade" class="button" target="_blank">Filosofia Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
                       <a href="https://www.formula1.com/" class="button" target="_blank">GP de Fórmula 1</a>
