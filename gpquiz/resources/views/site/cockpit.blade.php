@@ -19,13 +19,13 @@
                   </p>
                   <br>
                   <div class="col-md-12 text-center">
-                      <a href="http://www.honda.com.br" class="button" target="_blank">Competições da Honda</a>
+                      <a href="http://www.hondaracingbrasil.com" class="button" target="_blank">Competições da Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
-                      <a href="http://en.hondaracingf1.com/heritage.html" class="button" target="_blank">Filosofia Honda</a>
+                      <a href="https://www.formula1.com/" class="button" target="_blank">Filosofia Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
-                      <a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_1" class="button" target="_blank">GP de Fórmula 1</a>
+                      <a href="www.honda.com.br/institucional/sustentabilidade" class="button" target="_blank">GP de Fórmula 1</a>
                   </div>
 
                   <div class="clearfix"></div>
