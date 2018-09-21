@@ -27,11 +27,16 @@ body {
 .corpo {
   background-image: url(../assets/bg.png);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  /*background-position: center bottom;*/
   background-size: cover;
-  min-height: 930px;
+  min-height: 1160px;
 }
-
+.corpo.cockpit {
+  background-image: url(../assets/bg-regulamento.jpg);
+  background-position-y: bottom;
+  min-height: 920px;
+  margin-bottom: 0px;
+}
 .corpo.carro {
  background-image: url(../assets/bg.jpg);
 }
@@ -380,10 +385,20 @@ footer {
 }
 .box-colored.options{
   padding-top: 20px;
+  margin: 0 auto;
   margin-top: 0px;
-  padding-bottom: 75px;
-  padding-left: 20px;
+  padding-bottom: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+  margin-bottom: 30px;
+  max-width: 100%;
 }
+.box-colored.options a {
+  width: 100%;
+  max-width: 305px;
+}
+
 .box-colored.normal{
   padding-top: 20px;
   margin-top: 0px;

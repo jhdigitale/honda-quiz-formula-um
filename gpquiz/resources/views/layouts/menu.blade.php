@@ -27,6 +27,7 @@
       //$('#nav-toggle').text(hidden ? 'Hide Menu' : 'Show Menu');
       if(!hidden){
           $(this).addClass("active");
+          $('.sidebarmenu').height($(document).height());
           $('.sidebarmenu').animate({
               left: '0px'
           },500)
