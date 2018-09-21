@@ -17,8 +17,8 @@
               <div class="col-md-10 col-md-offset-1 text-center">
                   <div class="col-md-6 col-md-offset-3 text-center texto-ligue">
                       <div class="col-md-12">
-                          <p>Enquanto os motores aquecem, por favor, preencha <br>
-                             o formulário corretamente para a corrida começar.</p>
+                          <p>Enquanto os motores aquecem, por favor, <b>preencha</b> <br>
+                             <b>o formulário</b> corretamente para a corrida começar.</p>
                       </div>
                   </div>
                   <form method="POST" action="/gp2018/cadastro" id="form-enviar">
@@ -31,7 +31,7 @@
                               <input class="form-control" placeholder="NOME" name="name" required="required">
                           </div>
                           <div class="col-md-12 esp-margem email">
-                              <input class="form-control" placeholder="*E-MAIL" type="email" name="email" required="required">
+                              <input class="form-control" placeholder="E-MAIL*" type="email" name="email" required="required">
                           </div>
                           <div class="col-md-4 esp-margem matricula no-padding-right">
                               <input class="form-control" placeholder="MATRÍCULA" required="required" name="register">
@@ -41,7 +41,7 @@
                           </div>
                           <div class="col-md-4 esp-margem planta no-padding-left">
                               <select class="" name="local" required="required" placeholder="PLANTA">
-                                  <option value="">UNIDADES</option>
+                                  <option value="">PLANTA</option>
                                   <option value="Manaus">Manaus</option>
                                   <option value="Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides">Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides</option>
                                   <option value="Sumaré (HAB, HSA, HRB-S, Peças, CT/MQC, Itirapina, Paulínia, Xangri-lá, Cariacica, Joinville)">Sumaré (HAB, HSA, HRB-S, Peças, CT/MQC, Itirapina, Paulínia, Xangri-lá, Cariacica, Joinville)</option>
@@ -49,12 +49,12 @@
                           </div>
                           <div class="clearfix"></div>
                           <br>
-                          <div class="col-md-12" style="color:#000;">
+                          <div class="col-md-12 read-regulation">
                               <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gp2018/regulamento" target="_blank">regulamento</a> da ação<br></b></span>
                           </div>
                           <br><br>
                           <div class="col-md-8 col-md-offset-2 esp-margem">
-                              <a class="button" id="enviar">CONTINUAR</a>
+                              <a class="button" id="enviar">ENTRAR</a>
                           </div>
                       </div>
                   </form>

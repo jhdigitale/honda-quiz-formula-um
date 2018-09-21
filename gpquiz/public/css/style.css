@@ -440,6 +440,21 @@ footer {
   font-size: 14px;
   margin-bottom: 15px;
   height: 42px;
+  font-weight: 800;
+  color:#4d4d4f;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#4d4d4f;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color:#4d4d4f;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color:#4d4d4f;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color:#4d4d4f;
 }
 .planta{
   background-color: rgba(255, 255, 255, 0.9);
@@ -460,6 +475,8 @@ footer {
   -moz-appearance: none;
   appearance: none;
   background: url('/assets/bullet-select.png') 96% / 7% no-repeat;
+  font-weight: 800;
+  color:#4d4d4f;
 }
 .cpf{
   padding-left: 0px;
@@ -470,7 +487,14 @@ footer {
   border: 0px;
   background-color: transparent;
 }
-
+.read-regulation{
+  font-weight: 800;
+  color: #4d4d4f;
+}
+.read-regulation a {
+  color: #4d4d4f;
+  text-decoration: underline;
+}
 .sidebarmenu {
   position: absolute;
   left: -315px;

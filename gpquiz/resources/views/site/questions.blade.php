@@ -100,7 +100,7 @@
 
         }
 
-        var cancel = setInterval(incrementSeconds, 1000);
+        //var cancel = setInterval(incrementSeconds, 1000);
 
 
     });
