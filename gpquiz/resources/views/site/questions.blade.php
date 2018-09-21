@@ -8,15 +8,15 @@
             <div class="col-md-6 no-padding">
                 <img src="/assets/logo.png" class="img-responsive">
 
-                <div class="tempo">
-                    <span>Fique de olho no seu tempo!</span>
-                    <div>00:<i>00</i></div>
+                <div class="time">
+                    <span class="phrase">Fique de olho no seu tempo!</span>
+                    <div>00:<span class="zero" id="zero">00</span></div>
                 </div>
             </div>
 
 
 
-            <div class="col-md-6 no-padding">
+            <div class="col-md-6 no-padding img-circuito">
                 <img src="/assets/circuito/Circuito{{$question->id}}.png" class="img-responsive">
             </div>
 

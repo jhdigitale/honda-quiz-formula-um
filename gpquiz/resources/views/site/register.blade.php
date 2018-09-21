@@ -12,11 +12,11 @@
       <div class="col-md-12 logo text-center logo">
           <img src="/assets/logo.png">
       </div>
-      <div class="col-md-12 featured">
+      <div class="col-md-12 featured no-padding-mobile">
           <div class="">
-              <div class="col-md-10 col-md-offset-1 text-center">
+              <div class="col-md-10 col-md-offset-1 text-center no-padding-mobile">
                   <div class="col-md-6 col-md-offset-3 text-center texto-ligue">
-                      <div class="col-md-12">
+                      <div class="col-md-12 no-padding-mobile">
                           <p>Enquanto os motores aquecem, por favor, <b>preencha</b> <br>
                              <b>o formulário</b> corretamente para a corrida começar.</p>
                       </div>
@@ -27,19 +27,19 @@
                       {{ csrf_field() }}
 
                       <div class="col-md-10 col-md-offset-1 text-center">
-                          <div class="col-md-12">
+                          <div class="col-md-12 no-padding-mobile">
                               <input class="form-control" placeholder="NOME" name="name" required="required">
                           </div>
-                          <div class="col-md-12 esp-margem email">
+                          <div class="col-md-12 esp-margem email no-padding-mobile">
                               <input class="form-control" placeholder="E-MAIL*" type="email" name="email" required="required">
                           </div>
-                          <div class="col-md-4 esp-margem matricula no-padding-right">
+                          <div class="col-md-4 esp-margem matricula no-padding-right no-padding-mobile">
                               <input class="form-control" placeholder="MATRÍCULA" required="required" name="register">
                           </div>
-                          <div class="col-md-4 esp-margem cpf">
+                          <div class="col-md-4 esp-margem cpf no-padding-mobile">
                               <input class="form-control" placeholder="CPF" data-format="cpf" name="cpf" required="required">
                           </div>
-                          <div class="col-md-4 esp-margem planta no-padding-left">
+                          <div class="col-md-4 esp-margem planta no-padding-left ">
                               <select class="" name="local" required="required" placeholder="PLANTA">
                                   <option value="">PLANTA</option>
                                   <option value="Manaus">Manaus</option>
@@ -49,7 +49,7 @@
                           </div>
                           <div class="clearfix"></div>
                           <br>
-                          <div class="col-md-12 read-regulation">
+                          <div class="col-md-12 read-regulation no-padding-mobile">
                               <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gp2018/regulamento" target="_blank">regulamento</a> da ação<br></b></span>
                           </div>
                           <br><br>

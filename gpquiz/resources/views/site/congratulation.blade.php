@@ -14,9 +14,9 @@
 
                     <h3>Parabéns</h3>
 
-                    <p>Você colocou seu Racing Spirit à prova
-                        e temos certeza que deu o seu melhor.
-                        Em breve disponibilizaremos as respostas
+                    <p>Você colocou seu <b>Racing Spirit</b> à prova<br>
+                        e temos certeza que deu o seu melhor.<br>
+                        Em breve disponibilizaremos as respostas<br>
                         e os ganhadores da promoção.
                     </p>
 

@@ -24,6 +24,15 @@ body {
   top: 30px;
   z-index: 2;
 }
+@media(max-width:990px){
+  .logo-honda{
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 209px;
+  }
+}
 .corpo {
   background-image: url(../assets/bg.png);
   background-repeat: no-repeat;
@@ -37,8 +46,17 @@ body {
   min-height: 920px;
   margin-bottom: 0px;
 }
+.corpo.regulamento {
+  background-image: url(../assets/bg-regulamento.jpg);
+  background-position-y: bottom;
+  min-height: 920px;
+  margin-bottom: 0px;
+}
 .corpo.carro {
- background-image: url(../assets/bg.jpg);
+  background-image: url(../assets/bg-regulamento.jpg);
+  background-position-y: bottom;
+  min-height: 920px;
+  margin-bottom: 0px;
 }
 
 @media(max-width: 990px){
@@ -300,7 +318,7 @@ h1 {color: white;}
   padding: 13px;
   padding-left: 22px;
   color: #FFF;
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 10px;
   text-align: left;
   width: 100%;
@@ -355,21 +373,37 @@ footer {
   background-color: #009045;
   color: white;
   padding: 10px;
+  border-top: 6px solid #ffd600;
 }
 
 .logo {padding-top: 40px;}
+
 .logo p{
   font-size: 20px;
   text-transform: uppercase;
+}
+
+@media(max-width: 990px){
+  .logo p{
+    font-size: 16px;
+  }
 }
 .logo-perguntas{
   padding-top: 70px;
 }
 
 .featured {padding-top: 10px;}
+
 .featured .icon-home{
   max-width: 100px;
   margin-left: -30px;
+}
+
+@media(max-width: 990px){
+  .featured .icon-home{
+    margin: 0 auto;
+    display: block;
+  }
 }
 .box-colored {
   background-color: rgba(255, 255, 255, 0.9);
@@ -382,6 +416,16 @@ footer {
   padding-bottom: 10px;
   min-height: 210px;
   max-width: 93%;
+}
+
+@media(max-width: 990px){
+  .box-colored{
+    padding: 15px;
+    padding-top: 110px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 .box-colored.options{
   padding-top: 20px;
@@ -409,7 +453,7 @@ footer {
   font-size: 42px;
   height: auto;
   margin: 0 auto;
-  margin-top: 0px;
+  margin-top: 20px;
   min-height: auto;
 }
 .box-colored.parabens{
@@ -421,15 +465,40 @@ footer {
   min-height: auto;
   margin-top: 60px;
 }
+@media(max-width: 990px){
+  .box-colored.parabens br{
+    display: none;
+  }
 
+  .box-colored.parabens .boa-sorte br{
+    display:inline-block;
+  }
+}
+.box-colored.regulamento{
+  padding-left: 20px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 40px;
+  text-align: justify;
+}
+.box-colored.regulamento h3 {
+  text-align: center;
+  width: 100%;
+}
+.box-colored.regulamento h5 {
+ font-size:18px;
+  color:#000;
+  margin-top: 15px;
+}
 .box-colored.parabens h3 {
-  color:#ff423b;
-  font-size: 27px;
+  color: #ff423b;
+  font-size: 18px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .boa-sorte b{
   color:#ff423b;
-  font-size:18px;
+  font-size:16px;
 }
 
 .form-control{
@@ -466,6 +535,16 @@ footer {
   max-height: 42px;
   height: 42px;
   line-height: 34px;
+}
+@media(max-width:990px){
+  .planta{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .texto-ligue p{
+    font-size: 16px;
+  }
 }
 .planta select{
   width: 100%;
@@ -537,6 +616,12 @@ footer {
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   z-index: 9;
+}
+
+@media(max-width: 990px){
+  #nav-toggle {
+    left: 50px;
+  }
 }
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
@@ -681,9 +766,10 @@ footer {
   footer {
     width: 100%;
     position: relative;
-    height: 45px;
-    font-size: 8px;
+    height: 50px;
+    font-size: 12px;
     text-align: center !important;
+    padding-bottom: 50px;
   }
   footer .text-right{
     text-align: center;
@@ -697,20 +783,21 @@ footer {
   }
 }
 .questao{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 0.9);
   display: block;
   padding-inline-start: 20px;
   padding-top: 15px;
   padding-bottom: 16px;
+  padding-right: 15px;
 }
 
 .no-padding{
   padding: 0px !important;
 }
 
-.tempo{
+.time{
   width: 100%;
   background-color: #fff;
   padding-left: 10px;
@@ -718,12 +805,20 @@ footer {
   margin-top: 20px;
 }
 
-.tempo span{
-  font-size: 17px;
+.time .phrase{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
   line-height: 43px;
 }
 
-.tempo div{
+@media(max-width:990px){
+  .time .phrase{
+    font-size: 12px;
+  }
+}
+
+.time div{
   float: right;
   padding: 5px 10px;
   background: #ff853f;
@@ -741,4 +836,23 @@ footer {
   margin-top: -92px;
   margin-bottom: 0px;
   display: block;
+}
+
+
+@media(max-width: 990px){
+  .img-circuito{
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+
+}
+
+
+
+
+/* util */
+
+.no-padding-mobile{
+  padding:0px !important;
 }

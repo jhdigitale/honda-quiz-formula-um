@@ -1,14 +1,14 @@
 @extends('layouts.layout')
 
 @section ('content')
-    <div class="col-md-12 corpo">
+    <div class="col-md-12 corpo regulamento">
         <div class="logo-honda"></div>
         <div class="col-md-12 logo text-center logo">
             <img src="/assets/logo.png">
         </div>
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-8 col-md-offset-2">
             <div class="text-left">
-                <div class="box-colored" style="margin-top:50px; padding-left: 20px;">
+                <div class="box-colored regulamento">
 
                     <h3>Regulamento do GP Quiz 2018</h3>
 

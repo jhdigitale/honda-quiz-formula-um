@@ -9,7 +9,7 @@
           <div class="col-md-6 col-md-offset-3 featured">
               <div class="text-center">
                   <div class="box-colored gabarito">
-                      <p>Baixe suas respostas para checar com o gabarito, que será divulgado, e ver como foi seu desempenho.</p>
+                      <p><b>Baixe suas respostas</b> para checar com o gabarito, que será divulgado, e ver como foi seu desempenho.</p>
                   </div>
                   <br>
                   <a href="/gp2018/gabarito" target="_blank" class="button" id="parabens">DOWNLOAD</a>
