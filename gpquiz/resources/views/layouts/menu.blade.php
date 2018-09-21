@@ -11,7 +11,7 @@
 <div class="sidebarmenu">
      <ul>
       <li>
-        <a href="/gp2018">GP QUIZ 2018</a>
+        <a href="/gp2018">GP Quiz 2018</a>
       </li>
       <li>
         <a href="/gp2018/regulamento">Regulamento</a>
@@ -33,7 +33,7 @@
       } else {
           $(this).removeClass("active");
           $('.sidebarmenu').animate({
-              left: '-260px'
+              left: '-315px'
           },500)
       }
       //$('.sidebarmenu,.image').data("hidden", !hidden);
