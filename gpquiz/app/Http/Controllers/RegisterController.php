@@ -80,9 +80,10 @@ class RegisterController extends Controller
                     //dd($e);
                     //flash()->error('Confira os dados de sua Matricula e seu CPF');
                     //return redirct()->back();
-                    $errors = 'Confira os dados de sua Matricula e seu CPF';
 
-                    return view('site.register', comapact['errors']);
+                    $errorRegister = 'Confira os dados de sua Matricula e seu CPF';
+
+                    return view('site.register', compact('errorRegister'));
                     //return redirect()->back()->withErrors('message', 'Confira os dados de sua Matricula e seu CPF');
                 }
 
