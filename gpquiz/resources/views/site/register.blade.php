@@ -54,8 +54,15 @@
                           </div>
                           <br><br>
 
-                          @include('layouts.errors')
-                          
+                          @if(count($errors))
+                            @dd($errors);
+                            
+                          	@foreach($errors->all() as $error)
+                          	    <li>{{ $error }}</li>
+                          	@endforeach
+
+                          @endif
+
                           <div class="col-md-8 col-md-offset-2 esp-margem">
                               <a class="button" id="enviar">ENTRAR</a>
                           </div>
