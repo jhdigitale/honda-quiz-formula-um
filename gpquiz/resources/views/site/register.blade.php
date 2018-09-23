@@ -54,8 +54,9 @@
                           </div>
                           <br><br>
 
-
+                          @if($errorRegister != null)
                            {{$errorRegister}}
+                           @endif
 
 
 
