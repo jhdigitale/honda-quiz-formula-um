@@ -56,8 +56,7 @@
 
 
                            {{$errors}}
-                           {{$errors->all()}}
-
+                           
                           	@foreach($errors->all() as $error)
 
                           	    <li>{{ $error->message }}</li>
