@@ -484,10 +484,11 @@ footer {
 .box-colored.regulamento ul li{
   font-size: 15px;
 }
-@media(max-width: 990px){
-  .box-colored.regulamento ul li{
+@media(max-width: 990px) {
+  .box-colored.regulamento ul li {
     font-size: 12px;
   }
+}
 
 .box-colored.regulamento h3 {
   text-align: center;

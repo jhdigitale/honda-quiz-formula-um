@@ -16,7 +16,7 @@
 
 
                     <p>
-                        Esta é uma promoção, que será realizada pela Moto Honda da Amazônia Ltda. com filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a>.
+                        Esta é uma promoção, que será realizada pela Moto Honda da Amazônia Ltda. com filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: <a href="https://hondaquiz.com.br/gp2018" target="_blank">hondaquiz.com.br/gp2018</a>.
                     </p>
 
                     <p>
@@ -35,7 +35,7 @@
 
 
                     <p>
-                        1.1. O “GP Quiz” estará aberto para a participação de todos os colaboradores pelo site <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a>, do dia 26 de setembro de 2018 a 16 de outubro de 2018.
+                        1.1. O “GP Quiz” estará aberto para a participação de todos os colaboradores pelo site <a href="https://hondaquiz.com.br/gp2018" target="_blank">hondaquiz.com.br/gp2018</a>, do dia 26 de setembro de 2018 a 16 de outubro de 2018.
                     </p>
 
 
