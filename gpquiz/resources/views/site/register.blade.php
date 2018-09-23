@@ -55,6 +55,7 @@
                           <br><br>
 
 
+                            @dd($errors->all())
 
                           	@foreach($errors->all() as $error)
 
