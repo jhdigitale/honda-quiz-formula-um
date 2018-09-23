@@ -67,9 +67,19 @@ class RegisterController extends Controller
                     'local' => request('local'),
                 ];
 
-                $user = Register::create($register);
-                $logged = Auth::guard('register')->attempt($login);
-                
+
+
+
+                try {
+
+                    $user = Register::create($register);
+                    $logged = Auth::guard('register')->attempt($login);
+
+                } catch (\PDOException $e) {
+
+                    return redirect()->back()->withErrors('message', 'Confira os dados de sua Matricula e seu CPF');
+                }
+
                 //Auth::guard('register')->login($user);
                 //Auth::guard('register')->logout();
 
