@@ -45,18 +45,24 @@ body {
   background-position-y: bottom;
   min-height: 920px;
   margin-bottom: 0px;
+  background-size: cover;
+
 }
 .corpo.regulamento {
   background-image: url(../assets/bg-regulamento.jpg);
   background-position-y: bottom;
   min-height: 920px;
   margin-bottom: 0px;
+  background-size: cover;
+
 }
 .corpo.carro {
   background-image: url(../assets/bg-regulamento.jpg);
   background-position-y: bottom;
   min-height: 920px;
   margin-bottom: 0px;
+  background-size: cover;
+
 }
 
 @media(max-width: 990px){
@@ -480,6 +486,7 @@ footer {
   margin-top: 60px;
   padding: 40px;
   text-align: justify;
+  background-size: cover;
 }
 .box-colored.regulamento ul li{
   font-size: 15px;

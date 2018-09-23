@@ -60,7 +60,7 @@
 
 
                     <p>
-                    3.1. Para participar da presente promoção, os participantes deverão obrigatoriamente acessar o site <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a> dentro do prazo de participação acima citado. No site, deverá informar seu nome completo, e-mail corporativo ou pessoal, CPF, número de matrícula e planta em que trabalha para ganhar acesso ao quiz, que é composto de 20 (vinte) perguntas sobre a filosofia Honda, a participação da empresa em Fórmula 1, as regras deste campeonato e informações sobre outras competições que a Honda participa.
+                    3.1. Para participar da presente promoção, os participantes deverão obrigatoriamente acessar o site <a href="https://hondaquiz.com.br/gp2018" target="_blank">hondaquiz.com.br/gp2018</a> dentro do prazo de participação acima citado. No site, deverá informar seu nome completo, e-mail corporativo ou pessoal, CPF, número de matrícula e planta em que trabalha para ganhar acesso ao quiz, que é composto de 20 (vinte) perguntas sobre a filosofia Honda, a participação da empresa em Fórmula 1, as regras deste campeonato e informações sobre outras competições que a Honda participa.
                     </p>
 
                     <p>
