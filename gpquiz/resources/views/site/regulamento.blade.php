@@ -111,7 +111,7 @@
 
 
                     <p>
-                    6.1. Os resultados dos sorteios, assim como o gabarito do quiz, serão publicados no dia 22 de outubro de 2018 nos canais de comunicação interna corporativa e no site <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a>.
+                    6.1. Os resultados dos sorteios, assim como o gabarito do quiz, serão publicados no dia 22 de outubro de 2018 nos canais de comunicação interna corporativa e no site <a href="https://hondaquiz.com.br/gp2018" target="_blank">hondaquiz.com.br/gp2018</a>.
                     </p>
 
 
