@@ -22,10 +22,14 @@
                       <a href="http://www.hondaracingbrasil.com" class="button" target="_blank">Competições da Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
-                      <a href="https://www.honda.com.br/institucional/sustentabilidade" class="button" target="_blank">Filosofia Honda</a>
+                      <a href="https://www.honda.com.br/institucional/sustentabilidade#block-menusustentabilidade" class="button" target="_blank">Filosofia Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
                       <a href="https://www.formula1.com/" class="button" target="_blank">GP de Fórmula 1</a>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                      <a href="https://www.formula1.com/" class="button" target="_blank">Toro Rosso</a>
                   </div>
 
                   <div class="clearfix"></div>

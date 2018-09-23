@@ -37,9 +37,7 @@ class RegisterController extends Controller
                 'cpf' => request('cpf'),
             ];
 
-
             $haveUsers = Register::where('register', '=', request('register'))->get()->count();
-
 
             if($haveUsers > 0){
                 $logged = Auth::guard('register')->attempt($login);
@@ -70,10 +68,8 @@ class RegisterController extends Controller
                 ];
 
                 $user = Register::create($register);
-
                 $logged = Auth::guard('register')->attempt($login);
-
-
+                
                 //Auth::guard('register')->login($user);
                 //Auth::guard('register')->logout();
 

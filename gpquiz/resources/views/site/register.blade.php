@@ -40,7 +40,7 @@
                               <input class="form-control" placeholder="CPF" data-format="cpf" name="cpf" required="required">
                           </div>
                           <div class="col-md-4 esp-margem planta no-padding-left ">
-                              <select class="" name="local" required="required" placeholder="PLANTA">
+                              <select class="" name="local" required="required" placeholder="PLANTA" required="required">
                                   <option value="">PLANTA</option>
                                   <option value="Manaus">Manaus</option>
                                   <option value="Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides">Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides</option>
@@ -75,7 +75,7 @@
       $("#enviar").click(function(e){
         var enviar = false;
 
-          /*$('#form-enviar input,select').each(function(){
+          $('#form-enviar input,select').each(function(){
               if($(this).val().length <= 0){
                 alert("Preencha corretamente o campo:" + $(this).attr("placeholder"))
                 $(this).focus();
@@ -83,7 +83,7 @@
               } else {
                 enviar = true;
               }
-            });*/
+            });
 
             if($("input[name='nome']").val() <= 0){
               alert("Preencha corretamente o campo: " + $("input[name='nome']").attr("placeholder"));
@@ -106,8 +106,6 @@
             } else {
               $("#form-enviar").submit();
             }
-
-
 
           });
 
