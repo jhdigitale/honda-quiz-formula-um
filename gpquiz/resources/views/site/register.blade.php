@@ -73,17 +73,17 @@
       $("input[data-format='cpf']").mask("000.000.000-00").blur(function () { vcpf($(this)[0]); });
 
       $("#enviar").click(function(e){
-        var enviar = false;
+         var enviar = false;
 
-          $('#form-enviar input,select').each(function(){
+          /*$('#form-enviar input,select').each(function(){
               if($(this).val().length <= 0){
-                alert("Preencha corretamente o campo:" + $(this).attr("placeholder"))
+                alert("Preencha corretamente o campo: " + $(this).attr("placeholder"))
                 $(this).focus();
                 return false;
               } else {
                 enviar = true;
               }
-            });
+            });*/
 
             if($("input[name='nome']").val() <= 0){
               alert("Preencha corretamente o campo: " + $("input[name='nome']").attr("placeholder"));
