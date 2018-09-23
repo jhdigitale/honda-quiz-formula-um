@@ -1,6 +1,6 @@
 <table width="100%" text-align="center">
     <tr width="100%" text-align="center">
-        <td text-align="center"><img src="assets/logo.png"></td>
+        <td text-align="center"><img src="assets/logo.jpg"></td>
     </tr>
     <tr>
         <td><br><br><b>Nome</b>: {{ $data['user']->name }}</td>
@@ -34,12 +34,16 @@
 
             <tr>
                 <td>
+
                     @if($answer->order == $question->reposta)
-                        <b>{{ $answer->answer }}</b>
+                        <b style="color:#1d68a7">{{ $answer->answer }}</b>
                     @else
                         {{ $answer->answer }}
                     @endif
 
+                    @if($question->reposta == 0)
+                            <b>Pergunta não respondida dentro do tempo.</b>
+                        @endif
                 </td>
             </tr>
 

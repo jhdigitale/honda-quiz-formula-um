@@ -19,7 +19,7 @@
         <div class="col-md-6 text-left">
           <img class="icon-home" src="/assets/ico1.png">
           <div class="box-colored">
-            <p><strong>GP Quiz da Honda tem três etapas com os temas</strong>:
+            <p><strong>O GP Quiz da Honda tem três etapas com os temas</strong>:
                 Competições da Honda, Filosofia Honda e Fórmula 1. Estude cada circuito e fique ainda mais por dentro dos temas!</p>
               <a href="/gp2018/cockpit" class="button">CONFIRA</a>
           </div>
@@ -29,7 +29,7 @@
         <div class="col-md-6 text-left">
           <img class="icon-home" src="/assets/ico2.png">
           <div class="box-colored">
-            <p>Ligue seus motores, ao iniciar você deverá preencher seus dados e responder às
+            <p>Ligue seus motores. Ao iniciar você deverá preencher seus dados e responder às
                 <strong>20 questões de alternativa.</strong>
                 <br><br>
                 <strong>Vamos nessa?</strong>
