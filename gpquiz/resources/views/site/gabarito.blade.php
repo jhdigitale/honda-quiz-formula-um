@@ -41,13 +41,18 @@
                         {{ $answer->answer }}
                     @endif
 
-                    @if($question->reposta == 0)
-                            <b>Pergunta não respondida dentro do tempo.</b>
-                        @endif
+
                 </td>
             </tr>
 
         @endforeach
+
+        @if($question->reposta == 0)
+            <tr><td>
+                    <b>Pergunta não respondida dentro do tempo.</b>
+
+                </td></tr>
+        @endif
 
     </table>
 
