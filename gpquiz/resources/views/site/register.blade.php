@@ -55,18 +55,20 @@
                           <br><br>
 
 
-                            @dd($errors->all())
 
-                          	@foreach($errors->all() as $error)
-
-                          	    <li>{{ $error->message }}</li>
-                          	@endforeach
 
 
 
                           <div class="col-md-8 col-md-offset-2 esp-margem">
                               <a class="button" id="enviar">ENTRAR</a>
                           </div>
+
+                           @dd($errors->all())
+
+                                                    	@foreach($errors->all() as $error)
+
+                                                    	    <li>{{ $error->message }}</li>
+                                                    	@endforeach
                       </div>
                   </form>
                   <div class="clearfix"></div>
