@@ -17,7 +17,8 @@ class RegisterController extends Controller
 
 
     public function create(){
-        return view('site.register');
+        $errorRegister = null;
+        return view('site.register', compact('errorRegister'));
     }
 
     public function cockpit(){
