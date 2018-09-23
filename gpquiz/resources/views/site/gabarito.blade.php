@@ -49,7 +49,7 @@
 
         @if($question->reposta == 0)
             <tr><td>
-                    <b>Pergunta não respondida dentro do tempo.</b>
+                    <b style="color: red;">Pergunta não respondida dentro do tempo.</b>
 
                 </td></tr>
         @endif
