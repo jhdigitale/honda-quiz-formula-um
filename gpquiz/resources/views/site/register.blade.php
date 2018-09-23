@@ -54,7 +54,7 @@
                           </div>
                           <br><br>
 
-                          @if(count($errors))
+                          @if(count($errors) > 0)
 
 
                           	@foreach($errors->all() as $error)
