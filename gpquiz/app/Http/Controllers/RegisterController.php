@@ -77,7 +77,7 @@ class RegisterController extends Controller
 
                 } catch (\PDOException $e) {
 
-                    dd($e);
+                    //dd($e);
                     //flash()->error('Confira os dados de sua Matricula e seu CPF');
                     //return redirect()->back();
 
