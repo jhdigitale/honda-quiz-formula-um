@@ -76,6 +76,8 @@ class RegisterController extends Controller
                     $logged = Auth::guard('register')->attempt($login);
 
                 } catch (\PDOException $e) {
+
+                    dd($e);
                     //flash()->error('Confira os dados de sua Matricula e seu CPF');
                     //return redirect()->back();
 

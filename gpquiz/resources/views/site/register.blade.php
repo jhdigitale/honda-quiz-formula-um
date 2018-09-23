@@ -54,14 +54,15 @@
                           </div>
                           <br><br>
 
-                          @if(count($errors) > 0)
 
+                            @dd($errors->all());
 
                           	@foreach($errors->all() as $error)
+
                           	    <li>{{ $error->message }}</li>
                           	@endforeach
 
-                          @endif
+
 
                           <div class="col-md-8 col-md-offset-2 esp-margem">
                               <a class="button" id="enviar">ENTRAR</a>
