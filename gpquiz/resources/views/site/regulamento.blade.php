@@ -16,7 +16,7 @@
 
 
                     <p>
-                        Esta é uma promoção, que será realizada pela Moto Honda da Amazônia Ltda. com filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: <a href="hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a>.
+                        Esta é uma promoção, que será realizada pela Moto Honda da Amazônia Ltda. com filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a>.
                     </p>
 
                     <p>
@@ -35,7 +35,7 @@
 
 
                     <p>
-                        1.1. O “GP Quiz” estará aberto para a participação de todos os colaboradores pelo site <hondaquiz.com.br/gp2018>, do dia 26 de setembro de 2018 a 16 de outubro de 2018.
+                        1.1. O “GP Quiz” estará aberto para a participação de todos os colaboradores pelo site <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a>, do dia 26 de setembro de 2018 a 16 de outubro de 2018.
                     </p>
 
 
@@ -60,7 +60,7 @@
 
 
                     <p>
-                    3.1. Para participar da presente promoção, os participantes deverão obrigatoriamente acessar o site <hondaquiz.com.br/gp2018> dentro do prazo de participação acima citado. No site, deverá informar seu nome completo, e-mail corporativo ou pessoal, CPF, número de matrícula e planta em que trabalha para ganhar acesso ao quiz, que é composto de 20 (vinte) perguntas sobre a filosofia Honda, a participação da empresa em Fórmula 1, as regras deste campeonato e informações sobre outras competições que a Honda participa.
+                    3.1. Para participar da presente promoção, os participantes deverão obrigatoriamente acessar o site <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a> dentro do prazo de participação acima citado. No site, deverá informar seu nome completo, e-mail corporativo ou pessoal, CPF, número de matrícula e planta em que trabalha para ganhar acesso ao quiz, que é composto de 20 (vinte) perguntas sobre a filosofia Honda, a participação da empresa em Fórmula 1, as regras deste campeonato e informações sobre outras competições que a Honda participa.
                     </p>
 
                     <p>
@@ -68,7 +68,7 @@
                     </p>
 
                     <p>
-                    3.3. Caso o participante acerte de 8 a 14 respostas, ele irá concorrer a kits personalizados Honda. De 15 a 20 acertos, ele concorrerá aos ingressos para o GP do Brasil de Fórmula 1 2018 no setor B, nos dias 09, 10 e 11 de novembro de 2018, com transporte e estadias também pagos.
+                        3.3. Caso o participante acerte de 8 a 14 respostas, ele irá concorrer a kits personalizados Honda. De 15 a 20 acertos, ele concorrerá aos ingressos para o <b>GP do Brasil de Fórmula 1 2018 no setor B, nos dias 09, 10 e 11 de novembro de 2018</b>, com transporte e estadias também pagos.
                     </p>
 
                     <p>
@@ -86,7 +86,7 @@
 
 
                     <p>
-                    4.1. O GP Quiz tem como objetivo aumentar o orgulho e motivação para trabalhar na Honda, despertando ou aumentando o Racing Spirit.
+                        4.1. O GP Quiz tem como objetivo aumentar o orgulho e motivação para trabalhar na Honda, despertando ou aumentando o <i>Racing Spirit</i>.
                     </p>
 
 
@@ -111,7 +111,7 @@
 
 
                     <p>
-                    6.1. Os resultados dos sorteios, assim como o gabarito do quiz, serão publicados no dia 22 de outubro de 2018 nos canais de comunicação interna corporativa e no site <hondaquiz.com.br/gp2018>.
+                    6.1. Os resultados dos sorteios, assim como o gabarito do quiz, serão publicados no dia 22 de outubro de 2018 nos canais de comunicação interna corporativa e no site <a href="https://hondaquiz.com.br/gp2018">hondaquiz.com.br/gp2018</a>.
                     </p>
 
 
