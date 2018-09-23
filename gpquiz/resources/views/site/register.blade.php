@@ -55,11 +55,11 @@
                           <br><br>
 
                           @if($errorRegister != null)
-                           {{$errorRegister}}
-                           @endif
+                           <script>
+                            alert('{{$errorRegister}}');
+                           </script>
 
-
-
+                          @endif
 
 
                           <div class="col-md-8 col-md-offset-2 esp-margem">
