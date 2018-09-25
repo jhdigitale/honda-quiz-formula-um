@@ -49,12 +49,13 @@ body {
   .corpo {
     background-image: url(../assets/bg-carro-mobile.jpg);
     background-size: cover;
+    background-color: #5f8fe4;
   }
 
 }
 
 .corpo.cockpit {
-  background-image: url(../assets/bg-semcarro.jpg);
+  background-image: url(../assets/bg-regulamento.jpg);
   background-position-y: bottom;
   min-height: 920px;
   margin-bottom: 0px;
