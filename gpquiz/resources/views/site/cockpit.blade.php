@@ -29,7 +29,7 @@
                   </div>
 
                   <div class="col-md-12 text-center">
-                      <a href="https://www.formula1.com/" class="button" target="_blank">Toro Rosso</a>
+                      <a href="https://scuderiatororosso.redbull.com" class="button" target="_blank">Scuderia Toro Rosso</a>
                   </div>
 
                   <div class="clearfix"></div>
