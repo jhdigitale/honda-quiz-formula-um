@@ -781,7 +781,9 @@ footer {
 }
 
 @media(max-width: 990px){
-
+  .corpo {
+    background-size: 100%;
+  }
   
 
   .lista-assets img{
