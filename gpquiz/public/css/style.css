@@ -783,6 +783,8 @@ footer {
 @media(max-width: 990px){
   .corpo {
     background-size: 100%;
+    background-position-y: bottom;
+    background-color: #5f8fe4;
   }
   
 

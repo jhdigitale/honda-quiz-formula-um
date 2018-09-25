@@ -25,7 +25,8 @@
     <table>
         <tr>
             <td><h4>
-                    {{$question->order}}.{{$question->question}}
+                    {{--{{$question->order}}.--}}
+                    {{$question->question}}
                 </h4>
             </td>
         </tr>
