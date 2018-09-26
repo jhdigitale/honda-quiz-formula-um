@@ -90,19 +90,19 @@
               }
             });*/
 
-            if($("input[name='name']").val().length <= 3){
+            if($("input[name='name']").val().length < 3){
               alert("Preencha corretamente o campo: " + $("input[name='name']").attr("placeholder"));
               $("input[name='name']").focus();
-            } else if($("input[name='email']").val().length <= 3){
+            } else if($("input[name='email']").val().length < 3){
               alert("Preencha corretamente o campo: " + $("input[name='email']").attr("placeholder"));
               $("input[name='email']").focus();
-            } else if($("input[name='register']").val().length <= 3){
+            } else if($("input[name='register']").val().length < 3){
               alert("Preencha corretamente o campo: " + $("input[name='register']").attr("placeholder"));
               $("input[name='register']").focus();
-            } else if($("input[name='cpf']").val().length <= 3){
+            } else if($("input[name='cpf']").val().length < 3){
               alert("Preencha corretamente o campo: " + $("input[name='cpf']").attr("placeholder"));
               $("input[name='cpf']").focus();
-            }else if($("select[name='local']").val().length <= 3){
+            }else if($("select[name='local']").val().length < 3){
               alert("Preencha corretamente o campo: PLANTA");
               $("select[name='local']").focus();
             } else if($("input[name='check']").is(':checked') != true){
