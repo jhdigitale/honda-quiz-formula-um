@@ -16,6 +16,11 @@ class RegisterController extends Controller
     }
 
 
+    public function home(){
+//        $errorRegister = null;
+        return redirect("/gp2018");
+    }
+
     public function create(){
         $errorRegister = null;
         return view('site.register', compact('errorRegister'));

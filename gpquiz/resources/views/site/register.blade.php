@@ -93,7 +93,7 @@
             if($("input[name='name']").val().length < 3){
               alert("Preencha corretamente o campo: " + $("input[name='name']").attr("placeholder"));
               $("input[name='name']").focus();
-            } else if($("input[name='email']").val().length < 3){
+            } else if($("input[name='email']").val().length < 3 || !validateEmail($("input[name='email']").val())){
               alert("Preencha corretamente o campo: " + $("input[name='email']").attr("placeholder"));
               $("input[name='email']").focus();
             } else if($("input[name='register']").val().length < 3){
@@ -115,6 +115,11 @@
           });
 
     });
+
+    function validateEmail(email) {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    }
 
     function vcpf(campo) {
       if (campo.value != '') {

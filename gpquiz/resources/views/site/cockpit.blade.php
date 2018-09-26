@@ -19,17 +19,19 @@
                   </p>
                   <br>
                   <div class="col-md-12 text-center">
-                      <a href="http://www.hondaracingbrasil.com" class="button" target="_blank"><strong>Competições da Honda</strong></a>
+                      <a href="http://www.hondaracingbrasil.com" class="button" target="_blank"><strong>Honda Racing</strong></a>
                   </div>
                   <div class="col-md-12 text-center">
                       <a href="https://www.honda.com.br/institucional/nossa-historia" class="button" target="_blank"><strong>Filosofia Honda</strong><br>*Consulte informações mais detalhadas no seu livreto de Filosofia Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
-                      <a href="https://global.honda/motorsports/Formula-1.html" class="button" target="_blank"><strong>GP de Fórmula 1</strong></a>
+                      <a href="https://www.formula1.com/" class="button" target="_blank"><strong>GP de Fórmula 1 <em>(em inglês)</em></strong></a>
                   </div>
-
                   <div class="col-md-12 text-center">
-                      <a href="https://scuderiatororosso.redbull.com" class="button" target="_blank"><strong>Scuderia Toro Rosso</strong></a>
+                      <a href="https://global.honda/motorsports/Formula-1.html" class="button" target="_blank"><strong>Honda na Fórmula 1 <em>(em inglês)</em></strong></a>
+                  </div>
+                  <div class="col-md-12 text-center">
+                      <a href="https://scuderiatororosso.redbull.com" class="button" target="_blank"><strong>Scuderia Toro Rosso <em>(em inglês)</em></strong></a>
                   </div>
 
                   <div class="clearfix"></div>

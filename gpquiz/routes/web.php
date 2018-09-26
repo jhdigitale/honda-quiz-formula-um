@@ -12,6 +12,10 @@
 */
 
 
+// Site
+Route::get('/','RegisterController@home');
+
+
 Route::prefix('gp2018')->group(function(){
 
     // Site
