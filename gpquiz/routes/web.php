@@ -23,9 +23,9 @@ Route::prefix('gp2018')->group(function(){
 
     Route::get('/regulamento','RegulationController@index');
 
-    Route::get('/cadastro', 'RegisterController@create')->middleware('register');
+    Route::get('/cadastro', 'RegisterController@create');
 
-    Route::post('/cadastro', 'RegisterController@store')->middleware('register');
+    Route::post('/cadastro', 'RegisterController@store');
 
     Route::get('/login', 'RegisterController@login');
 
