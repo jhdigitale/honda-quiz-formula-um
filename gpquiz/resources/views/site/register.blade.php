@@ -21,7 +21,7 @@
 
                       <div class="col-md-10 col-md-offset-1 text-center">
                           <div class="col-md-12 no-padding-mobile">
-                              <input class="form-control" type="text" placeholder="NOME" name="name" required="required" minlength="3" />
+                              <input class="form-control" type="text" placeholder="NOME" name="name" required="required" min-length="3" />
                           </div>
                           <div class="col-md-12 esp-margem email no-padding-mobile">
                               <input class="form-control" placeholder="E-MAIL*" type="email" name="email" required="required" min-length="3" />
@@ -90,19 +90,19 @@
               }
             });*/
 
-            if($("input[name='name']").val() <= 3){
+            if($("input[name='name']").val().length <= 3){
               alert("Preencha corretamente o campo: " + $("input[name='name']").attr("placeholder"));
               $("input[name='name']").focus();
-            } else if($("input[name='email']").val() <= 3){
+            } else if($("input[name='email']").val().length <= 3){
               alert("Preencha corretamente o campo: " + $("input[name='email']").attr("placeholder"));
               $("input[name='email']").focus();
-            } else if($("input[name='register']").val() <= 3){
+            } else if($("input[name='register']").val().length <= 3){
               alert("Preencha corretamente o campo: " + $("input[name='register']").attr("placeholder"));
               $("input[name='register']").focus();
-            } else if($("input[name='cpf']").val() <= 3){
+            } else if($("input[name='cpf']").val().length <= 3){
               alert("Preencha corretamente o campo: " + $("input[name='cpf']").attr("placeholder"));
               $("input[name='cpf']").focus();
-            }else if($("select[name='local']").val() <= 3){
+            }else if($("select[name='local']").val().length <= 3){
               alert("Preencha corretamente o campo: PLANTA");
               $("select[name='local']").focus();
             } else if($("input[name='check']").is(':checked') != true){
