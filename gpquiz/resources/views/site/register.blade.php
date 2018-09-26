@@ -25,7 +25,7 @@
                           </div>
                           <div class="col-md-12 esp-margem email no-padding-mobile">
                               <input class="form-control" placeholder="E-MAIL*" type="email" name="email" required="required">
-<small style="position: relative; left: 10px; font-weight: bold; bottom: 14px;">*Caso não tenha e-mail corporativo, inserir seu e-mail pessoal.</small>
+<small style="position: relative; font-weight: bold; bottom: 14px;">*Caso não tenha e-mail corporativo, inserir seu e-mail pessoal.</small>
                           </div>
                           <div class="col-md-4 esp-margem matricula no-padding-right no-padding-mobile">
                               <input class="form-control" placeholder="MATRÍCULA" required="required" name="register">
