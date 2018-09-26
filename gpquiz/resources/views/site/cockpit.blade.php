@@ -19,17 +19,17 @@
                   </p>
                   <br>
                   <div class="col-md-12 text-center">
-                      <a href="http://www.hondaracingbrasil.com" class="button" target="_blank">Competições da Honda</a>
+                      <a href="http://www.hondaracingbrasil.com" class="button" target="_blank"><strong>Competições da Honda</strong></a>
                   </div>
                   <div class="col-md-12 text-center">
-                      <a href="https://www.honda.com.br/institucional/sustentabilidade#block-menusustentabilidade" class="button" target="_blank">Filosofia Honda</a>
+                      <a href="https://www.honda.com.br/institucional/sustentabilidade#block-menusustentabilidade" class="button" target="_blank"><strong>Filosofia Honda</strong><br>*Consulte informações mais detalhadas no seu livreto de Filosofia Honda</a>
                   </div>
                   <div class="col-md-12 text-center">
-                      <a href="https://www.formula1.com/" class="button" target="_blank">GP de Fórmula 1</a>
+                      <a href="https://www.formula1.com/" class="button" target="_blank"><strong>GP de Fórmula 1</strong></a>
                   </div>
 
                   <div class="col-md-12 text-center">
-                      <a href="https://scuderiatororosso.redbull.com" class="button" target="_blank">Scuderia Toro Rosso</a>
+                      <a href="https://scuderiatororosso.redbull.com" class="button" target="_blank"><strong>Scuderia Toro Rosso</strong></a>
                   </div>
 
                   <div class="clearfix"></div>
