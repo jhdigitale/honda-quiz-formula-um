@@ -1,7 +1,7 @@
 
 <div class="menu-gray">
     <div class="logo-honda">
-        <a href="https://www.honda.com.br/"><img src="/assets/logo_honda.png"></a>
+        <a href="/gp2018"><img src="/assets/logo_honda.png"></a>
     </div>
 
 
