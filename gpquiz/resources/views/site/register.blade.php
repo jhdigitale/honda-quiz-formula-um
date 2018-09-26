@@ -21,20 +21,20 @@
 
                       <div class="col-md-10 col-md-offset-1 text-center">
                           <div class="col-md-12 no-padding-mobile">
-                              <input class="form-control" placeholder="NOME" name="name" required="required">
+                              <input class="form-control" placeholder="NOME" name="name" required="required" minlength=3>
                           </div>
                           <div class="col-md-12 esp-margem email no-padding-mobile">
-                              <input class="form-control" placeholder="E-MAIL*" type="email" name="email" required="required">
+                              <input class="form-control" placeholder="E-MAIL*" type="email" name="email" required="required" minlength=3>
 <small style="position: relative; font-weight: bold; bottom: 14px;">*Caso não tenha e-mail corporativo, inserir seu e-mail pessoal.</small>
                           </div>
                           <div class="col-md-4 esp-margem matricula no-padding-right no-padding-mobile">
-                              <input class="form-control" placeholder="MATRÍCULA" required="required" name="register">
+                              <input class="form-control" placeholder="MATRÍCULA" required="required" name="register" minlength=3>
                           </div>
                           <div class="col-md-4 esp-margem cpf no-padding-mobile">
-                              <input class="form-control" placeholder="CPF" data-format="cpf" name="cpf" required="required">
+                              <input class="form-control" placeholder="CPF" data-format="cpf" name="cpf" required="required" minlength=3>
                           </div>
                           <div class="col-md-4 esp-margem planta no-padding-left ">
-                              <select class="" name="local" required="required" placeholder="PLANTA" required="required">
+                              <select class="" name="local" required="required" placeholder="PLANTA" required="required" minlength=3>
                                   <option value="">PLANTA</option>
                                   <option value="Manaus">Manaus</option>
                                   <option value="Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides">Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides</option>
