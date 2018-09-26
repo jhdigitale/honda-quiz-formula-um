@@ -12,7 +12,8 @@ class AdminController extends Controller
     }
 
     public function login(){
-        return view('admin.auth.login');
+        //return view('admin.auth.login');
+        return redirect("/gp2018/cadastro");
     }
 
     public function store(){
