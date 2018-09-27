@@ -51,11 +51,11 @@
                                   <option value="Sumaré - HRB-S">Sumaré - HRB-S</option>
                                   <option value="Sumaré - Peças">Sumaré - Peças</option>
                                   <option value="Sumaré - CT/MQC">Sumaré - CT/MQC</option>
-                                  <option value="Sumaré - Itirapina">Itirapina</option>
-                                  <option value="Sumaré - Paulínia">Paulínia</option>
-                                  <option value="Sumaré - Xangri-lá">Xangri-lá</option>
-                                  <option value="Sumaré - Cariacica">Cariacica</option>
-                                  <option value="Sumaré - Joinville">Joinville</option>
+                                  <option value="Itirapina">Itirapina</option>
+                                  <option value="Paulínia">Paulínia</option>
+                                  <option value="Xangri-lá">Xangri-lá</option>
+                                  <option value="Cariacica">Cariacica</option>
+                                  <option value="Joinville">Joinville</option>
                               </select>
                           </div>
                           <div class="clearfix"></div>
