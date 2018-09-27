@@ -37,6 +37,11 @@ body {
     width: 209px;
   }
 }
+@media(max-width:640px){
+  .logo-honda{
+    margin-left: 90px;
+  }
+}
 .corpo {
   background-image: url(../assets/bg.jpg);
   background-repeat: no-repeat;
