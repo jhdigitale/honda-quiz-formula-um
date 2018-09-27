@@ -22,8 +22,15 @@
 
   @section('script')
 
-          $("#parabens").click(function(){
-            window.location.href = "/gp2018/parabens";
+          $("#parabens").click(function(e){
+
+              e.preventDefault();
+              var url = $(this).attr("href");
+
+              var win = window.open(url, '_blank');
+              win.focus();
+
+              window.location.href = "/gp2018/parabens";
           });
 
   @endsection
