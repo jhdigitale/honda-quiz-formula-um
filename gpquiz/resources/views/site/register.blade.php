@@ -48,7 +48,7 @@
                                   <option value="Benevides">Benevides</option>
                                   <option value="Sumaré - HAB">Sumaré - HAB</option>
                                   <option value="Sumaré - HSA">Sumaré - HSA</option>
-                                  <option value="Sumaré - HRB-S">Sumaré - HRB-S</option>
+                                  <option value="Sumaré - HRB/CPR">Sumaré - HRB/CPR</option>
                                   <option value="Sumaré - Peças">Sumaré - Peças</option>
                                   <option value="Sumaré - CT/MQC">Sumaré - CT/MQC</option>
                                   <option value="Itirapina">Itirapina</option>
