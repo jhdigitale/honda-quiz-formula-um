@@ -39,8 +39,23 @@
                               <select class="" name="local" required="required" placeholder="PLANTA" required="required" min="3" min-length="3">
                                   <option value="">PLANTA</option>
                                   <option value="Manaus">Manaus</option>
-                                  <option value="Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides">Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides</option>
-                                  <option value="Sumaré (HAB, HSA, HRB-S, Peças, CT/MQC, Itirapina, Paulínia, Xangri-lá, Cariacica, Joinville)">Sumaré (HAB, HSA, HRB-S, Peças, CT/MQC, Itirapina, Paulínia, Xangri-lá, Cariacica, Joinville)</option>
+                                  <option value="Morumbi">Morumbi</option>
+                                  <option value="São Caetano">São Caetano</option>
+                                  <option value="CETH Indaiatuba">CETH Indaiatuba</option>
+                                  <option value="Peças Indaiatuba">Peças Indaiatuba</option>
+                                  <option value="Jaboatão">Jaboatão</option>
+                                  <option value="Recife">Recife</option>
+                                  <option value="Benevides">Benevides</option>
+                                  <option value="Sumaré - HAB">Sumaré - HAB</option>
+                                  <option value="Sumaré - HSA">Sumaré - HSA</option>
+                                  <option value="Sumaré - HRB-S">Sumaré - HRB-S</option>
+                                  <option value="Sumaré - Peças">Sumaré - Peças</option>
+                                  <option value="Sumaré - CT/MQC">Sumaré - CT/MQC</option>
+                                  <option value="Sumaré - Itirapina">Sumaré - Itirapina</option>
+                                  <option value="Sumaré - Paulínia">Sumaré - Paulínia</option>
+                                  <option value="Sumaré - Xangri-lá">Sumaré - Xangri-lá</option>
+                                  <option value="Sumaré - Cariacica">Sumaré - Cariacica</option>
+                                  <option value="Sumaré - Joinville">Sumaré - Joinville</option>
                               </select>
                           </div>
                           <div class="clearfix"></div>
