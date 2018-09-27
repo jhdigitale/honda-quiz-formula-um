@@ -1,6 +1,8 @@
   @extends('layouts.layout')
 
   @section ('content')
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
   <div class="col-md-12 corpo">
       <div class="col-md-12 logo text-center logo">
           <img src="/assets/logo.png">

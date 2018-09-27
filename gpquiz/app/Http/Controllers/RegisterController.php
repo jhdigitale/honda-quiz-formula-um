@@ -83,18 +83,10 @@ class RegisterController extends Controller
 
                 } catch (\PDOException $e) {
 
-                    //dd($e);
-                    //flash()->error('Confira os dados de sua Matricula e seu CPF');
-                    //return redirct()->back();
-
                     $errorRegister = 'Você já possui um registro, verifique se os dados estão corretos.';
-
                     return view('site.register', compact('errorRegister'));
-                    //return redirect()->back()->withErrors('message', 'Confira os dados de sua Matricula e seu CPF');
-                }
 
-                //Auth::guard('register')->login($user);
-                //Auth::guard('register')->logout();
+                }
 
             }
 
