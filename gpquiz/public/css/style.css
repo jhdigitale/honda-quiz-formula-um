@@ -39,6 +39,7 @@ body {
 }
 @media(max-width:480px){
   .logo-honda a img{
+    margin-right: 0;
     width: 80% !important;
   }
 }
