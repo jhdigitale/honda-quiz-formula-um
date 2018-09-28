@@ -30,7 +30,9 @@
                   <th>Nome</th>
                     <th>CPF</th>
                     <th>Matrícula</th>
-                    <th>Acertos</th>
+                     <th>Planta</th>
+
+                     <th>Acertos</th>
                     <th>Ações</th>
                 </tr>
               </thead>
@@ -43,7 +45,9 @@
                       <th>{{ $register->name }}</th>
                         <th>{{ $register->cpf }}</th>
                         <th>{{ $register->register }}</th>
-                        <th><a href="/admin/winners/{{ $register->id }}/pdf">{{ $register->correct }}</a></th>
+                        <th>{{ $register->local }}</th>
+
+                  <th><a href="/admin/winners/{{ $register->id }}/pdf">{{ $register->correct }}</a></th>
 
                         <th>
                             <a href="/admin/winners/{{ $register->id }}"><span class="fa fa-edit"></span></a>

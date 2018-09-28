@@ -20,13 +20,26 @@ class AwnseredController extends Controller
 
     public function index(){
 
-        $awnsereds = Awnsered::where('register_id', '=', Auth::guard('register')->user()->id)->count() + 1;
-        $question = Question::find($awnsereds);
-        //$questionsCount = Question::where('quiz_id', '=', '1')->count();
-        
-        if($question == null){
-            return view("site.feedback");
+        //dd(Auth::guard('register')->user());
+
+        try{
+            if(Auth::check()){
+                $awnsereds = Awnsered::where('register_id', '=', Auth::guard('register')->user()->id)->count() + 1;
+                $question = Question::find($awnsereds);
+                //$questionsCount = Question::where('quiz_id', '=', '1')->count();
+
+                if($question == null){
+                    return view("site.feedback");
+                }
+            } else {
+                return redirect("/gp2018/cadastro");
+            }
+        } catch (\Exception $exception){
+            $errorRegister = 'Erro 3 - Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+            return redirect("/gp2018/cadastro", compact('errorRegister'));
         }
+
+
 
         //dd($questionsCount);
         return view("site.questions", compact('question'));

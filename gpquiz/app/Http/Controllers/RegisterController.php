@@ -46,15 +46,22 @@ class RegisterController extends Controller
             $haveUsers = Register::where('register', '=', request('register'))->get()->count();
 
             if($haveUsers > 0){
-                $logged = Auth::guard('register')->attempt($login);
 
-                if ($logged) {
-                    //Auth::guard('register')->loginById($login->id);
-                    return redirect()->route('question');
-                } else {
+                try {
+                    $logged = Auth::guard('register')->attempt($login);
+
+                    if ($logged) {
                         //Auth::guard('register')->loginById($login->id);
-                        $errorRegister = 'Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+                        return redirect()->route('question');
+                    } else {
+                        //Auth::guard('register')->loginById($login->id);
+                        $errorRegister = 'Erro 1 - Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
                         return view('site.register', compact('errorRegister'));
+                    }
+                } catch (\Exception $exception){
+                    $errorRegister = 'Erro 2 - Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+                    return view('site.register', compact('errorRegister'));
+
                 }
 
             } else {
@@ -77,9 +84,6 @@ class RegisterController extends Controller
                     'local' => request('local'),
                 ];
 
-
-
-
                 try {
 
                     $user = Register::create($register);
@@ -93,7 +97,7 @@ class RegisterController extends Controller
 
                 } catch (\PDOException $e) {
 
-                    $errorRegister = 'Você já possui um registro, verifique se os dados estão corretos.';
+                    $errorRegister = 'Erro 4 - Você já possui um registro, verifique se os dados estão corretos.';
                     return view('site.register', compact('errorRegister'));
 
                 }
