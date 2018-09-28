@@ -12,6 +12,13 @@ use Barryvdh\DomPDF\Facade as PDF;
 class WinnerController extends Controller
 {
     //
+    public function __construct()
+    {
+        $this->middleware('auth');
+        //$this->middleware('auth')->except(['index']);
+
+    }
+
     public function index(){
 
         //$registers = Awnsered::where('quiz_id', '=', '1')->distinct('register_id');
