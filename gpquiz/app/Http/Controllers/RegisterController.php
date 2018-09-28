@@ -59,7 +59,7 @@ class RegisterController extends Controller
                         return view('site.register', compact('errorRegister'));
                     }
                 } catch (\Exception $exception){
-                    $errorRegister = 'Erro 2 - Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+                    $errorRegister = 'Erro 201 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
                     return view('site.register', compact('errorRegister'));
 
                 }
@@ -91,13 +91,13 @@ class RegisterController extends Controller
 
                     if (!$logged) {
                         //Auth::guard('register')->loginById($login->id);
-                        $errorRegister = 'Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+                        $errorRegister = 'Erro 202 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
                         return view('site.register', compact('errorRegister'));
                     }
 
                 } catch (\PDOException $e) {
 
-                    $errorRegister = 'Erro 4 - Você já possui um registro, verifique se os dados estão corretos.';
+                    $errorRegister = 'Erro 203 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
                     return view('site.register', compact('errorRegister'));
 
                 }

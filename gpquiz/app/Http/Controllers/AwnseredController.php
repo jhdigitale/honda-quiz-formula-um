@@ -35,7 +35,7 @@ class AwnseredController extends Controller
                 return redirect("/gp2018/cadastro");
             }
         } catch (\Exception $exception){
-            $errorRegister = 'Erro 3 - Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+            $errorRegister = 'Erro 204 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
             return redirect("/gp2018/cadastro", compact('errorRegister'));
         }
 
