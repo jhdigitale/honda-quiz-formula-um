@@ -39,6 +39,7 @@
                 {{ csrf_field() }}
 
                 <input type="hidden" name="answer" id="answer" value="0"/>
+
             </form>
 
             <div class="col-md-12 text-center">
@@ -65,7 +66,6 @@
 
             if(resposta != undefined){
                 $("#answer").val(resposta);
-
                 $("#enviar-questao").submit();
             } else {
                 alert('Favor selecionar uma resposta');

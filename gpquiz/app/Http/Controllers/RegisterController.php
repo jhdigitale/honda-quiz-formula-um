@@ -51,6 +51,10 @@ class RegisterController extends Controller
                 if ($logged) {
                     //Auth::guard('register')->loginById($login->id);
                     return redirect()->route('question');
+                } else {
+                        //Auth::guard('register')->loginById($login->id);
+                        $errorRegister = 'Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+                        return view('site.register', compact('errorRegister'));
                 }
 
             } else {
@@ -80,6 +84,12 @@ class RegisterController extends Controller
 
                     $user = Register::create($register);
                     $logged = Auth::guard('register')->attempt($login);
+
+                    if (!$logged) {
+                        //Auth::guard('register')->loginById($login->id);
+                        $errorRegister = 'Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+                        return view('site.register', compact('errorRegister'));
+                    }
 
                 } catch (\PDOException $e) {
 
