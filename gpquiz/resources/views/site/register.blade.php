@@ -39,8 +39,23 @@
                               <select class="" name="local" required="required" placeholder="PLANTA" required="required" min="3" min-length="3">
                                   <option value="">PLANTA</option>
                                   <option value="Manaus">Manaus</option>
-                                  <option value="Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides">Morumbi, São Caetano, CETH Indaiatuba, Peças Indaiatuba, Jaboatão, Recife e Benevides</option>
-                                  <option value="Sumaré (HAB, HSA, HRB-S, Peças, CT/MQC, Itirapina, Paulínia, Xangri-lá, Cariacica, Joinville)">Sumaré (HAB, HSA, HRB-S, Peças, CT/MQC, Itirapina, Paulínia, Xangri-lá, Cariacica, Joinville)</option>
+                                  <option value="Morumbi">Morumbi</option>
+                                  <option value="São Caetano">São Caetano</option>
+                                  <option value="CETH Indaiatuba">CETH Indaiatuba</option>
+                                  <option value="Peças Indaiatuba">Peças Indaiatuba</option>
+                                  <option value="Jaboatão">Jaboatão</option>
+                                  <option value="Recife">Recife</option>
+                                  <option value="Benevides">Benevides</option>
+                                  <option value="Sumaré - HAB">Sumaré - HAB</option>
+                                  <option value="Sumaré - HSA">Sumaré - HSA</option>
+                                  <option value="Sumaré - HRB/CPR">Sumaré - HRB/CPR</option>
+                                  <option value="Sumaré - Peças">Sumaré - Peças</option>
+                                  <option value="Sumaré - CT/MQC">Sumaré - CT/MQC</option>
+                                  <option value="Itirapina">Itirapina</option>
+                                  <option value="Paulínia">Paulínia</option>
+                                  <option value="Xangri-lá">Xangri-lá</option>
+                                  <option value="Cariacica">Cariacica</option>
+                                  <option value="Joinville">Joinville</option>
                               </select>
                           </div>
                           <div class="clearfix"></div>
