@@ -67,30 +67,57 @@ class WinnerController extends Controller
 
     public function getCorrect(Register $register){
 
-        //$user = Auth::guard('register')->user();
+
         $questions = Question::where('quiz_id', '=', 1)->get();
         $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
 
-        $data['questions'] = collect(new Question);
         $data['user'] = $register;
+        $data['questions'] = collect(new Question);
         $data['answers'] = $userAnswered;
 
-        $posicaoResposta = 0;
-        $respostasUsuarios = $register->answeredByUser($register);
+        $i = 0;
+
         $respostaFinal = 0;
 
         foreach ($questions as $question){
 
-            foreach ($question->answersToCorrect($question) as $answer){
 
-                $respostilha = $respostasUsuarios[$posicaoResposta];
-
-                if($answer->correct == $respostilha->answer){
-                    $respostaFinal++;
-                }
-            }
-            $posicaoResposta++;
+            //$reposta = $userAnswered[$i]->answer;
+            //$question->reposta = $reposta;
+            //$data['questions']->push($question);
+            //$i++;
+            $respostaFinal++;
         }
+
+
+
+        //$user = Auth::guard('register')->user();
+
+
+
+//        $questions = Question::where('quiz_id', '=', 1)->get();
+//        $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
+//
+//        $data['questions'] = collect(new Question);
+//        $data['user'] = $register;
+//        $data['answers'] = $userAnswered;
+//
+//        $posicaoResposta = 0;
+//        $respostasUsuarios = $register->answeredByUser($register);
+//        $respostaFinal = 0;
+//
+//        foreach ($questions as $question){
+//
+//            foreach ($question->answersToCorrect($question) as $answer){
+//
+//                $respostilha = $respostasUsuarios[$posicaoResposta];
+//
+//                if($answer->correct == $respostilha->answer){
+//                    $respostaFinal++;
+//                }
+//            }
+//            $posicaoResposta++;
+//        }
 
         return $respostaFinal;
 
