@@ -55,7 +55,7 @@ class RegisterController extends Controller
                         return redirect()->route('question');
                     } else {
                         //Auth::guard('register')->loginById($login->id);
-                        $errorRegister = 'Erro 1 - Verifique se seu navegador estão com cookies habilitados e limpe seu cache do browser, após essa verificação faça o registro novamente';
+                        $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
                         return view('site.register', compact('errorRegister'));
                     }
                 } catch (\Exception $exception){
