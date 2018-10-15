@@ -14,7 +14,7 @@
 
 <!--                     <h3>Parabéns</h3>
  -->
-                    <p>Parabéns por completar todos os circuitos do GP Quiz 2018! <br/>Para saber até onde chegou com seu Racing Spirit acesse este site a partir das 12h00 do dia 22/10 e confira o resultado.
+                    <p>Parabéns por completar todos os circuitos do GP Quiz 2018! <br/>Para saber até onde chegou com seu Racing Spirit <b>acesse este site a partir das 12h00 do dia 22/10 e confira o resultado.</b>
                     </p>
 
                     <p class="boa-sorte">
