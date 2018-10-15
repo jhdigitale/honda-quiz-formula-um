@@ -484,6 +484,37 @@ footer {
   margin-top: 20px;
   min-height: auto;
 }
+
+.box-colored.encerramento {
+  padding: 40px;
+  font-size: 42px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-height: auto;
+}
+
+.box-colored.encerramento h5{
+  padding: 10px;
+  width: AUTO;
+  max-width: auto;
+  color: white;
+  font-size: 13px;
+  margin-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 0;
+  background: #ff673d;
+  background: -moz-linear-gradient(top, #ff673d 1%, #ff3b3b 41%);
+  background: -webkit-linear-gradient(top, #ff673d 1%,#ff3b3b 41%);
+  background: linear-gradient(to bottom, #ff673d 1%,#ff3b3b 41%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff673d', endColorstr='#ff3b3b',GradientType=0 );
+  width: 100%;
+}
 .box-colored.parabens{
   padding: 40px;
   font-size: 42px;

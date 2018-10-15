@@ -12,4 +12,10 @@ class RegulationController extends Controller
         return view('site.regulamento');
 
     }
+
+    public function indexAdmin(){
+
+        return view('admin.regulation.index');
+
+    }
 }

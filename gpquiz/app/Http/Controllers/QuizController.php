@@ -9,12 +9,12 @@ use Carbon\Carbon;
 class QuizController extends Controller
 {
 
-//    public function __construct()
-//    {
-//        $this->middleware('auth');
-//        //$this->middleware('auth')->except(['index']);
-//
-//    }
+    public function __construct()
+    {
+        $this->middleware('auth');
+        //$this->middleware('auth')->except(['index']);
+
+    }
 
     public function index()
     {

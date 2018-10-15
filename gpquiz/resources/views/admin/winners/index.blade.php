@@ -3,7 +3,11 @@
 
 @section ('content')
        <div class="content-wrapper">
-    <div class="container-fluid">
+
+           {{ csrf_field() }}
+
+
+           <div class="container-fluid">
       <!-- Breadcrumbs-->
       {{--<ol class="breadcrumb">--}}
         {{--<li class="breadcrumb-item active">Ganhadores</li>--}}
@@ -34,6 +38,8 @@
 
                      <th>Acertos</th>
                     <th>Ações</th>
+                    <th>Ganhador</th>
+                    <th>Kit</th>
                 </tr>
               </thead>
 
@@ -53,6 +59,32 @@
                             <a href="/admin/winners/{{ $register->id }}"><span class="fa fa-edit"></span></a>
                             <a href="{{ $register->id }}" class="remove"><span class="fa fa-close"></span></a>
                         </th>
+
+                        <th>
+                            <input type="checkbox" name="winner" class="winner" data-user="{{ $register->id }}"
+
+                                   @if($register->winner == 1)
+                                        checked
+                                         value="1"
+                                   @else
+                                        value="0"
+                                   @endif
+                            >
+
+                        </th>
+
+                        <th>
+                            <input type="checkbox" name="kit" class="kit" data-user="{{ $register->id }}"
+
+                                   @if($register->kit == 1)
+                                   checked
+                                   value="1"
+                                   @else
+                                   value="0"
+                                    @endif
+                            >
+
+                        </th>
                 </tr>
                 @endforeach
                
@@ -67,3 +99,73 @@
     
 @endsection
 
+
+@section('scripts')
+    <script>
+
+        $(".winner").bind('change', function(){
+            let value = this.checked; //<---
+            let user = $(this).data("user");
+            let _token = $("input[name='_token']").val();
+
+            var formData = new FormData();
+            formData.append('win', value);
+            formData.append('user', user);
+            formData.append('_token', _token);
+
+            $.ajax({
+                type: "POST",
+                url: "/admin/winners/win",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(response){
+
+                    //let render = "<div class=\"list-group-item created\">" + answer +"</div>"
+                    //$("#sortable").append(render)
+                    //alert("Funcionou!");
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert("Status: " + textStatus); alert("Error: " + errorThrown);
+                }
+            });
+
+            //alert(val);
+        });
+
+
+        $(".kit").bind('change', function(){
+            let value = this.checked; //<---
+            let user = $(this).data("user");
+            let _token = $("input[name='_token']").val();
+
+            var formData = new FormData();
+            formData.append('kit', value);
+            formData.append('user', user);
+            formData.append('_token', _token);
+
+            $.ajax({
+                type: "POST",
+                url: "/admin/winners/kit",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(response){
+
+                    //let render = "<div class=\"list-group-item created\">" + answer +"</div>"
+                    //$("#sortable").append(render)
+                    //alert("Funcionou!");
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert("Status: " + textStatus); alert("Error: " + errorThrown);
+                }
+            });
+
+            //alert(val);
+        });
+
+        //$("#local").val($("#local_hdn").val());
+
+    </script>
+
+@endsection

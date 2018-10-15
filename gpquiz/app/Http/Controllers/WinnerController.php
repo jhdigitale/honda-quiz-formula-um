@@ -26,6 +26,7 @@ class WinnerController extends Controller
         //dd($registers);
         $registers = collect(new Register);
 
+
         foreach ($registersInit as $register){
 
             $register->correct = WinnerController::getCorrect($register);
@@ -34,7 +35,6 @@ class WinnerController extends Controller
             $registers->push($register);
             //getCorrect($registers);
         }
-
 
 
         return view('admin.winners.index', compact('registers'));
@@ -71,6 +71,28 @@ class WinnerController extends Controller
         return redirect('/admin/winners');
     }
 
+    public function win()
+    {
+
+        $register = Register::find(request('user'));
+        $win = request('win') == 'true' ? 1: 0;
+        $register->winner = $win;
+
+        dd($register->update());
+
+    }
+
+    public function kit()
+    {
+
+        $register = Register::find(request('user'));
+        $kit = request('kit') == 'true' ? 1: 0;
+        $register->kit = $kit;
+
+        dd($register->update());
+
+    }
+
 
     public function getCorrect(Register $register){
 
@@ -80,51 +102,47 @@ class WinnerController extends Controller
 
         $data['user'] = $register;
         $data['questions'] = collect(new Question);
-        $data['answers'] = $userAnswered;
+        $data['answered'] = $userAnswered;
 
         $i = 0;
 
         $respostaFinal = 0;
+        $respostasUsuarios = $register->answeredByUser($register);
+        $posicaoQuestao = 0;
 
         foreach ($questions as $question){
 
+            $posicaoResposta = 1;
 
-            //$reposta = $userAnswered[$i]->answer;
-            //$question->reposta = $reposta;
-            //$data['questions']->push($question);
-            //$i++;
-            $respostaFinal++;
+
+            foreach ($question->answersToCorrect($question) as $answer){
+
+                if(count($respostasUsuarios) > 0){
+
+                    $respostilha = $respostasUsuarios[$posicaoQuestao];
+
+
+                    if($answer->correct == 1){
+
+
+                        if($respostilha->answer == $posicaoResposta){
+
+                            $respostaFinal++;
+                        }
+                    }
+
+                    $posicaoResposta++;
+
+                }
+
+            }
+
+
+            $posicaoQuestao++;
+
+
+
         }
-
-
-
-        //$user = Auth::guard('register')->user();
-
-
-
-//        $questions = Question::where('quiz_id', '=', 1)->get();
-//        $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
-//
-//        $data['questions'] = collect(new Question);
-//        $data['user'] = $register;
-//        $data['answers'] = $userAnswered;
-//
-//        $posicaoResposta = 0;
-//        $respostasUsuarios = $register->answeredByUser($register);
-//        $respostaFinal = 0;
-//
-//        foreach ($questions as $question){
-//
-//            foreach ($question->answersToCorrect($question) as $answer){
-//
-//                $respostilha = $respostasUsuarios[$posicaoResposta];
-//
-//                if($answer->correct == $respostilha->answer){
-//                    $respostaFinal++;
-//                }
-//            }
-//            $posicaoResposta++;
-//        }
 
         return $respostaFinal;
 
@@ -177,9 +195,7 @@ class WinnerController extends Controller
 
             foreach ($question->answersToCorrect($question) as $answer) {
 
-
                 $respostilha = $respostasUsuarios[$posicaoResposta];
-
                 $answer->correta = 0;
 
                 if($answer->correct == $respostilha->answer){
@@ -193,11 +209,8 @@ class WinnerController extends Controller
 
             }
 
-            //dd($question);
 
-            //$question->correta = $reposta;
             $data['questions']->push($question);
-
             $posicaoResposta++;
 
             $i++;

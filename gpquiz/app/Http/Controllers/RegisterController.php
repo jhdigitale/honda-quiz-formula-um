@@ -6,6 +6,7 @@ use App\Awnsered;
 use App\Register;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use PhpParser\Node\Expr\Cast\Object_;
 
 class RegisterController extends Controller
 {
@@ -31,7 +32,8 @@ class RegisterController extends Controller
     }
 
     public function login(){
-        return view('site.login');
+        $errorRegister = null;
+        return view('site.login', compact('errorRegister'));
     }
 
     public function store(){
@@ -97,7 +99,7 @@ class RegisterController extends Controller
 
                 } catch (\PDOException $e) {
 
-                    $errorRegister = 'Erro 203 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
+                    $errorRegister = 'Você já possui um registro, verifique se os dados estão corretos.';
                     return view('site.register', compact('errorRegister'));
 
                 }
@@ -111,12 +113,62 @@ class RegisterController extends Controller
     public function storeLogin()
     {
 
-        $logged = !auth()->attempt(request(['register', 'cpf']));
+        $login = [
+            //'email' => request('email'),
+            'password' => request('register'),
+            'register' => request('register'),
+            'cpf' => request('cpf'),
+        ];
 
-        if ($logged) {
-            return back();
+        try {
+            $logged = Auth::guard('register')->attempt($login);
+
+            if ($logged) {
+                //Auth::guard('register')->loginById($login->id);
+                return redirect('/gp2018/fim');
+            } else {
+                //Auth::guard('register')->loginById($login->id);
+                $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
+                return view('site.register', compact('errorRegister'));
+            }
+        } catch (\Exception $exception){
+            $errorRegister = 'Erro 211 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
+            return view('site.register', compact('errorRegister'));
+
         }
 
-        return redirect()->home();
+        //return redirect()->gabaritoCorrigido();
+
+
+        //return view('site.finish', compact('register'));
+        return redirect('/gp2018/fim');
+    }
+
+    public function finish(){
+
+        $winners["gahadores"] = Register::where('winner', '=', 1)->orderBy('local','ASC')->get();
+        $winners["kit"] = Register::where('kit', '=', 1)->orderBy('local','ASC')->get();
+
+        // $plantas = Register::select('local')->distinct()->get();
+        // $locais = collect();
+
+        // foreach ($plantas as $planta){
+
+        //     $plantaNome = $planta->local;
+        //     $plantaUsuariosWin = Register::where('local', '=', $plantaNome)->where('winner', '=', 1)->get();
+        //     $plantaUsuariosKit = Register::where('local', '=', $plantaNome)->where('kit', '=', 1)->get();
+
+        //     $plantaFinal['planta'] = $plantaNome;
+        //     $plantaFinal['usuariosWin'] = $plantaUsuariosWin;
+        //     $plantaFinal['usuariosKit'] = $plantaUsuariosKit;
+
+        //     $locais->push($plantaFinal);
+
+
+        // }
+
+        // //dd($locais);
+
+        return view('site.encerrado', compact('winners'));
     }
 }

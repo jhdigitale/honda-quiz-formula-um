@@ -31,10 +31,6 @@ Route::prefix('gp2018')->group(function(){
 
     Route::post('/cadastro', 'RegisterController@store');
 
-    Route::get('/login', 'RegisterController@login');
-
-    Route::post('/login', 'RegisterController@storeLogin');
-
     Route::get('/perguntas', 'AwnseredController@index')->name('question');
 
     Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
@@ -42,6 +38,21 @@ Route::prefix('gp2018')->group(function(){
     Route::get('/gabarito', 'FeedbackController@index');
 
     Route::get('/parabens', 'FeedbackController@congratualtions');
+
+    // Final
+    Route::get('/login', 'RegisterController@login');
+
+    Route::post('/login', 'RegisterController@storeLogin');
+
+    Route::get('/fim', 'FeedbackController@finish');
+
+    Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
+
+    Route::get('/encerrado', 'RegisterController@finish');
+
+    Route::get('/em-breve', 'FeedbackController@comingsoon');
+
+
 
     // Admin
 
@@ -125,7 +136,12 @@ Route::prefix('admin')->group(function(){
 
     Route::get('/winners/{register}/corrigir', 'WinnerController@generatePDFCorrigido');
 
+    Route::post('/winners/win', 'WinnerController@win');
 
+    Route::post('/winners/kit', 'WinnerController@kit');
+
+// 6 Regulation
+    Route::get('/regulation', 'RegulationController@indexAdmin');
 
 });
 
