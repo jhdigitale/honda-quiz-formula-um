@@ -117,7 +117,7 @@ class WinnerController extends Controller
 
             foreach ($question->answersToCorrect($question) as $answer){
 
-                if(count($respostasUsuarios) > 0 && $posicaoQuestao <= count($respostasUsuarios)){
+                if(count($respostasUsuarios) > 0 && $posicaoQuestao < (count($respostasUsuarios) - 1)){
 
                     $respostilha = $respostasUsuarios[$posicaoQuestao];
 
