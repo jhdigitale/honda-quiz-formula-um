@@ -146,8 +146,8 @@ class RegisterController extends Controller
 
     public function finish(){
 
-        $winners["gahadores"] = Register::where('winner', '=', 1)->orderBy('local','ASC')->get();
-        $winners["kit"] = Register::where('kit', '=', 1)->orderBy('local','ASC')->get();
+        $winners["gahadores"] = Register::where('winner', '=', 1)->orderBy('name','ASC')->get();
+        $winners["kit"] = Register::where('kit', '=', 1)->orderBy('name','ASC')->get();
 
         // $plantas = Register::select('local')->distinct()->get();
         // $locais = collect();
