@@ -62,6 +62,17 @@
                         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e3b', endColorstr='#ff8e3f',GradientType=1 ); /* IE6-9 */
                     }
 
+                    @media(max-width: 990px){
+                        .header-tabela{
+                            display: none;
+                        }
+
+                        .corpo-tabela .linha div{
+                            text-align: center !important;
+                        }
+
+                    }
+
                     .header-tabela div{
                         border-right:1px solid #ff8e3f;
                     }
