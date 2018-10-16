@@ -11,12 +11,12 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
   
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+        <!-- <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="/admin">
             <i class="fa fa-fw fa-question"></i>
             <span class="nav-link-text">Quiz</span>
           </a>
-        </li>
+        </li> -->
 
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="/admin/winners">
@@ -32,12 +32,12 @@
           </a>
         </li>
 
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+        <!-- <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="/admin/regulation">
             <i class="fa fa-fw fa-envelope"></i>
             <span class="nav-link-text">Regulamento</span>
           </a>
-        </li>
+        </li> -->
 
       </ul>
       <ul class="navbar-nav sidenav-toggler">
