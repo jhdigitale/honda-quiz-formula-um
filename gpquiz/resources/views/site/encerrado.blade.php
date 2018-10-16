@@ -72,7 +72,7 @@
                         width: 100%;
                         line-height: 24px;
                     }
-                    .corpo-tabela .linha:nth-child(2)
+                    .corpo-tabela .linha:nth-child(even)
                     {
                         background-color: #fff9eb;
                         color:black;
