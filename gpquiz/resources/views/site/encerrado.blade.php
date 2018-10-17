@@ -97,13 +97,13 @@
                      </div>   
 
                      <div class="header-tabela">
-                        <div class="col-md-8 text-left">
+                        <div class="col-md-7 text-left">
                             NOME
                          </div>
                          <div class="col-md-2">
                             MATRICULA
                          </div>
-                         <div class="col-md-2">
+                         <div class="col-md-3">
                             UNIDADE
                          </div>   
                      </div>
@@ -113,13 +113,13 @@
                        @foreach($winners["gahadores"] as $ganhador)
                         
                         <div class="linha">
-                            <div class="col-md-8 text-left">
+                            <div class="col-md-7 text-left">
                                 {{ $ganhador->name }}
                              </div>
                              <div class="col-md-2">
                                 {{ $ganhador->register }}
                              </div>
-                             <div class="col-md-2">
+                             <div class="col-md-3">
                                 {{ $ganhador->local }}
                              </div>   
                         </div>
@@ -137,13 +137,13 @@
                      </div>   
 
                      <div class="header-tabela">
-                        <div class="col-md-8 text-left">
+                        <div class="col-md-7 text-left">
                             NOME
                          </div>
                          <div class="col-md-2">
                             MATRICULA
                          </div>
-                         <div class="col-md-2">
+                         <div class="col-md-3">
                             UNIDADE
                          </div>   
                      </div>
@@ -153,13 +153,13 @@
                         @foreach($winners["kit"] as $ganhador)
                         
                         <div class="linha">
-                            <div class="col-md-8 text-left">
+                            <div class="col-md-7 text-left">
                                 {{ $ganhador->name }}
                              </div>
                              <div class="col-md-2">
                                 {{ $ganhador->register }}
                              </div>
-                             <div class="col-md-2">
+                             <div class="col-md-3">
                                 {{ $ganhador->local }}
                              </div>   
                         </div>

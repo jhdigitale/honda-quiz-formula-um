@@ -10,7 +10,9 @@
             <div class="text-center">
                 <div class="box-colored gabarito">
 
-                    <p>OBRIGADO PELA PARTICIPAÇÃO!</p>
+                    <!-- <p>OBRIGADO PELA PARTICIPAÇÃO!</p> -->
+
+                    <p>AGRADECEMOS A SUA PARTICIPAÇÃO!</p>
 
                     <h3>Você acertou</h3>
                     <h1 style="color: #ff3d3b; font-size: 35px;">{{ $register->correct }} de 20</h1>

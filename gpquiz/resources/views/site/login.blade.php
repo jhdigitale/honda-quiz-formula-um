@@ -12,8 +12,11 @@
                 <div class="col-md-10 col-md-offset-1 text-center no-padding-mobile">
                     <div class="col-md-6 col-md-offset-3 text-center texto-ligue">
                         <div class="col-md-12 no-padding-mobile">
-                            <p>Enquanto os motores aquecem, por favor, <b>preencha</b> <br>
-                                <b>o formulário</b> corretamente para a corrida começar.</p>
+                            <!-- <p>
+                                Enquanto os motores aquecem, por favor, <b>preencha</b> <br>
+                                <b>o formulário</b> corretamente para a corrida começar.
+                            </p> -->
+                            <p>Digite seus dados, da mesma forma que colocou para responder ao Quiz e confira a sua pontuação.</p>
                         </div>
                     </div>
                     <form method="POST" action="/gp2018/login" id="form-enviar">
