@@ -19,9 +19,9 @@ Route::get('/','RegisterController@home');
 Route::prefix('gp2018')->group(function(){
 
     // Site
-    Route::get('/', function () {
-        return view('site.index');
-    });
+    // Route::get('/', function () {
+    //     return view('site.index');
+    // });
 
     Route::get('/cockpit','RegisterController@cockpit');
 
@@ -51,6 +51,9 @@ Route::prefix('gp2018')->group(function(){
     Route::get('/encerrado', 'RegisterController@finish');
 
     Route::get('/em-breve', 'FeedbackController@comingsoon');
+
+    //MAIN ROUTE
+    Route::get('/', 'FeedbackController@comingsoon');
 
 
 
