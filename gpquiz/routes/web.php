@@ -16,7 +16,8 @@
 Route::get('/','RegisterController@home');
 
 
-Route::prefix('gp2018')->group(function(){
+Route::prefix('gp2018_bkp')->group(function(){
+
 
     // Site
     // Route::get('/', function () {
@@ -51,6 +52,11 @@ Route::prefix('gp2018')->group(function(){
     Route::get('/encerrado', 'RegisterController@finish');
 
     Route::get('/em-breve', 'FeedbackController@comingsoon');
+    
+}
+
+Route::prefix('gp2018')->group(function(){
+
 
     //MAIN ROUTE
     Route::get('/', 'FeedbackController@comingsoon');
