@@ -53,7 +53,7 @@ Route::prefix('gp2018_bkp')->group(function(){
 
     Route::get('/em-breve', 'FeedbackController@comingsoon');
 
-}
+});
 
 Route::prefix('gp2018')->group(function(){
 
