@@ -129,24 +129,24 @@ class FeedbackController extends Controller
 
             foreach ($question->answersToCorrect($question) as $answer){
 
-                $respostilha = $respostasUsuarios[$posicaoQuestao];
+                if(count($respostasUsuarios) > 0 && ($posicaoQuestao) < count($respostasUsuarios)){
+                    $respostilha = $respostasUsuarios[$posicaoQuestao];
 
-                if($answer->correct == 1){
+                    if($answer->correct == 1){
 
 
-                    if($respostilha->answer == $posicaoResposta){
+                        if($respostilha->answer == $posicaoResposta){
 
-                        $respostaFinal++;
+                            $respostaFinal++;
+                        }
                     }
-                }
 
-                $posicaoResposta++;
+                    $posicaoResposta++;
+                }
             }
 
 
             $posicaoQuestao++;
-
-
 
         }
 
