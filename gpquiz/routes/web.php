@@ -58,9 +58,18 @@ Route::prefix('gp2018_bkp')->group(function(){
 Route::prefix('gp2018')->group(function(){
 
 
-    //MAIN ROUTE
-    Route::get('/', 'FeedbackController@comingsoon');
+    //TELA TEMPORÁRIA
+    Route::get('/embreve', 'FeedbackController@comingsoon');
 
+    //Route::get('/embreve', 'FeedbackController@comingsoon');
+
+     Route::get('/', 'RegisterController@login');
+
+     Route::post('/login', 'RegisterController@storeLogin');
+
+     Route::get('/fim', 'FeedbackController@finish');
+
+         Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
 
 
     // Admin
