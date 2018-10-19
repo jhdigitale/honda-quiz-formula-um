@@ -127,11 +127,9 @@ class FeedbackController extends Controller
 
             $posicaoResposta = 1;
 
-
             foreach ($question->answersToCorrect($question) as $answer){
 
                 if(count($respostasUsuarios) > 0 && ($posicaoQuestao) < count($respostasUsuarios)){
-
                     $respostilha = $respostasUsuarios[$posicaoQuestao];
 
                     if($answer->correct == 1){
@@ -144,9 +142,7 @@ class FeedbackController extends Controller
                     }
 
                     $posicaoResposta++;
-
                 }
-
             }
 
 
@@ -160,54 +156,6 @@ class FeedbackController extends Controller
 
 
     }
-    
-    // public function getCorrect(Register $register){
-
-
-    //     $questions = Question::where('quiz_id', '=', 1)->get();
-    //     $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
-
-    //     $data['user'] = $register;
-    //     $data['questions'] = collect(new Question);
-    //     $data['answered'] = $userAnswered;
-
-    //     $i = 0;
-
-    //     $respostaFinal = 0;
-    //     $respostasUsuarios = $register->answeredByUser($register);
-    //     $posicaoQuestao = 0;
-
-    //     foreach ($questions as $question){
-
-    //         $posicaoResposta = 1;
-
-    //         foreach ($question->answersToCorrect($question) as $answer){
-
-    //             $respostilha = $respostasUsuarios[$posicaoQuestao];
-
-    //             if($answer->correct == 1){
-
-
-    //                 if($respostilha->answer == $posicaoResposta){
-
-    //                     $respostaFinal++;
-    //                 }
-    //             }
-
-    //             $posicaoResposta++;
-    //         }
-
-
-    //         $posicaoQuestao++;
-
-
-
-    //     }
-
-    //     return $respostaFinal;
-
-
-    // }
 
 
 }
