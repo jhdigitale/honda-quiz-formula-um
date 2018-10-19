@@ -26,7 +26,7 @@
         </li>
 
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-          <a class="nav-link" href="/admin/list">
+          <a class="nav-link" href="/admin/list" target="_blank">
             <i class="fa fa-fw fa-user"></i>
             <span class="nav-link-text">Ganhadores Lista</span>
           </a>
