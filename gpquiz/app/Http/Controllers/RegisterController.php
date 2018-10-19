@@ -129,11 +129,11 @@ class RegisterController extends Controller
             } else {
                 //Auth::guard('register')->loginById($login->id);
                 $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
-                return view('site.register', compact('errorRegister'));
+                return view('site.login', compact('errorRegister'));
             }
         } catch (\Exception $exception){
             $errorRegister = 'Erro 211 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
-            return view('site.register', compact('errorRegister'));
+            return view('site.login', compact('errorRegister'));
 
         }
 
