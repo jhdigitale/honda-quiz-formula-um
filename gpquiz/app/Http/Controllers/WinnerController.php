@@ -41,6 +41,28 @@ class WinnerController extends Controller
 
     }
 
+    public function excel(){
+
+        //$registers = Awnsered::where('quiz_id', '=', '1')->distinct('register_id');
+        $registersInit = Register::all();
+        //dd($registers);
+        $registers = collect(new Register);
+
+
+        foreach ($registersInit as $register){
+
+            $register->correct = WinnerController::getCorrect($register);
+
+            //dd($register);
+            $registers->push($register);
+            //getCorrect($registers);
+        }
+
+
+        return view('admin.winners.excel', compact('registers'));
+
+    }
+
     public function edit(Register $register){
         return view('admin.winners.edit', compact('register'));
     }

@@ -59,17 +59,15 @@ Route::prefix('gp2018')->group(function(){
 
 
     //TELA TEMPORÁRIA
-    Route::get('/embreve', 'FeedbackController@comingsoon');
+    Route::get('/', 'FeedbackController@comingsoon');
 
-    //Route::get('/embreve', 'FeedbackController@comingsoon');
-
-     Route::get('/', 'RegisterController@login');
+     //Route::get('/', 'RegisterController@login');
 
      Route::post('/login', 'RegisterController@storeLogin');
 
      Route::get('/fim', 'FeedbackController@finish');
 
-         Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
+     Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
 
 
     // Admin
@@ -144,6 +142,8 @@ Route::prefix('admin')->group(function(){
 // 5 Winners
     Route::get('/winners', 'WinnerController@index');
 
+    Route::get('/list', 'WinnerController@excel');
+
     Route::get('/winners/{register}', 'WinnerController@edit');
 
     Route::patch('/winners/{register}', 'WinnerController@update');
@@ -169,10 +169,7 @@ Auth::routes();
 //    return view('admin.auth.register');
 //});
 
-
-
 //Route::get('/home', 'HomeController@index')->name('home');
-
 
 Auth::routes();
 

@@ -26,6 +26,13 @@
         </li>
 
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="/admin/list">
+            <i class="fa fa-fw fa-user"></i>
+            <span class="nav-link-text">Ganhadores Lista</span>
+          </a>
+        </li>
+
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="/admin/users">
             <i class="fa fa-fw fa-user"></i>
             <span class="nav-link-text">Usuários</span>
