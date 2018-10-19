@@ -58,6 +58,8 @@ Route::prefix('gp2018_bkp')->group(function(){
 Route::prefix('gp2018')->group(function(){
 
 
+    Route::get('/regulamento','RegulationController@index');
+    
     //TELA TEMPORÁRIA
     Route::get('/em-breve', 'FeedbackController@comingsoon');
 
