@@ -65,6 +65,8 @@ Route::prefix('gp2018')->group(function(){
 
      Route::get('/', 'RegisterController@login');
 
+     Route::get('/encerrado', 'RegisterController@finish');
+
      Route::post('/login', 'RegisterController@storeLogin');
 
      Route::get('/fim', 'FeedbackController@finish');

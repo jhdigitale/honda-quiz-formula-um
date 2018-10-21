@@ -20,7 +20,7 @@
  -->
                             <p>Digite seus dados, da mesma forma que colocou para responder ao Quiz e confira a sua pontuação.</p>
 
-                            <p>Na próxima semana, confira os ganhadores aqui no site e também nos canais de Comunicação Interna!</p>
+                            <!-- <p>Na próxima semana, confira os ganhadores aqui no site e também nos canais de Comunicação Interna!</p> -->
                         </div>
                     </div>
                     <form method="POST" action="/gp2018/login" id="form-enviar">
