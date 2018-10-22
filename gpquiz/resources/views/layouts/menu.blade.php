@@ -17,7 +17,7 @@
         <a href="/gp2018/regulamento">Regulamento</a>
       </li>
       <li>
-        <a href="/gp2018/encerrado">Resultado</a>
+        <a href="/gp2018/login">Gabarito - Login</a>
       </li>
      </ul>
 </div>
