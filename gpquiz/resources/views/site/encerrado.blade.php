@@ -116,7 +116,7 @@
                              </div>
                              <div class="col-md-2">
                                 {{ $ganhador->register }}
-                   
+                            </div>
                         </div>
                         @endforeach
 
@@ -138,9 +138,7 @@
                          <div class="col-md-2">
                             MATRICULA
                          </div>
-                         <div class="col-md-3">
-                            UNIDADE
-                         </div>   
+                          
                      </div>
 
                      <div class="corpo-tabela">
@@ -154,9 +152,7 @@
                              <div class="col-md-2">
                                 {{ $ganhador->register }}
                              </div>
-                             <div class="col-md-3">
-                                {{ $ganhador->local }}
-                             </div>   
+                        
                         </div>
                         @endforeach
 
