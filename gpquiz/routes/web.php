@@ -63,7 +63,7 @@ Route::prefix('gp2018')->group(function(){
     //TELA TEMPORÁRIA
     Route::get('/em-breve', 'FeedbackController@comingsoon');
 
-     Route::get('/ ', 'RegisterController@finish');
+     Route::get('/', 'RegisterController@finish');
 
      Route::get('/login', 'RegisterController@login');
 
