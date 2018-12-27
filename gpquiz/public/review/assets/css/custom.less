@@ -1,0 +1,120 @@
+html,
+body {
+    height: auto;
+    min-height: 100%;
+}
+
+body {
+    background-image: url(../img/bg-2.png), url(../img/bg.jpg);
+    background-position: right bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 45px 0;
+    .logo {
+        float: right;
+    }
+}
+
+section {
+    h1 {
+        background: url(../img/2018.png) no-repeat;
+        font-size: 0;
+        text-indent: -5000em;
+        display: block;
+        width: 643px;
+        height: 392px;
+        margin: 0 auto 30px;
+    }
+    h2 {
+        color: #444242;
+        font-size: 32px;
+        text-align: center;
+        margin: 0 auto 30px;
+        max-width: 510px;
+        strong {
+            color: #c3281c;
+        }
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 22px;
+        line-height: 26px;
+        max-width: 590px;
+        margin: 0 auto 15px;
+    }
+}
+
+footer {
+    background-color: #e04857;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+    >.container {
+        overflow: hidden;
+    }
+    p {
+        margin: 0;
+        &.pull-left {
+            float: left;
+        }
+        &.pull-right {
+            float: right;
+            text-align: right;
+        }
+    }
+}
+
+.video {
+    margin: 5% auto;
+    text-align: center;
+    width: 100%;
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-size: 300%, cover;
+    }
+    header {
+        padding: 15px 0;
+        .logo {
+            max-width: 115px;
+        }
+    }
+    section {
+        h1 {
+            background: url(../img/2018-p.png) no-repeat center;
+            height: 185px;
+            width: 100%;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    footer {
+        p {
+            &.pull-left,
+            &.pull-right {
+                font-size: 14px;
+                float: none;
+                text-align: center;
+            }
+        }
+    }
+}
