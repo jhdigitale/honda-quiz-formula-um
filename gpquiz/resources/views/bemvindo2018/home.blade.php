@@ -11,6 +11,12 @@
 
         }
 
+        @media(max-width:990px){
+            .corpo {
+                background-size: cover;
+            }
+        }
+
         .corpo h3{
             margin-bottom: 60px;
             font-size:40px;
@@ -50,13 +56,13 @@
 
             <h3>Sejam bem-vindos a</h3>
 
-            <img src="/assets/honda_2019.png" alt="Feliz 2019"/>
+            <img src="/assets/honda_2019.png" class="img-responsive" alt="Feliz 2019"/>
 
             <p>Assista a mensagem do presidente da Honda South America no vídeo abaixo:</p>
 
-            <video width="320" height="240" controls>
-                <source src="movie.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
+            <video width="100%" class="img-responsive" controls autoplay>
+                <source src="/assets/Honda_Issao_legendada_menor_PT_181220.m4v" type="video/mp4">
+                <source src="/assets/Honda_Issao_legendada_menor_PT_181220.webm" type="video/webm">
                 Your browser does not support the video tag.
             </video>
 
