@@ -44,6 +44,10 @@
             border-top: 0px;
             height: 40px;
         }
+
+        .img-2019{
+            margin: 0 auto;
+        }
     </style>
 
     <div class="col-md-12 corpo">
@@ -56,7 +60,7 @@
 
             <h3>Sejam bem-vindos a</h3>
 
-            <img src="/assets/honda_2019.png" class="img-responsive" alt="Feliz 2019"/>
+            <img src="/assets/honda_2019.png" class="img-2019 img-responsive" alt="Feliz 2019"/>
 
             <p>Assista a mensagem do presidente da Honda South America no vídeo abaixo:</p>
 
