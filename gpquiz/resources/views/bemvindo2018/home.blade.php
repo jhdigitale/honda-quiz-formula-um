@@ -69,7 +69,7 @@
                 <source src="https://s3-sa-east-1.amazonaws.com/vid-boas-vindas/honda_p2.ogv" type="video/ogv">
                 Your browser does not support the video tag.
             </video>
-            <div class="clearfix">>
+            <div class="clearfix">
             </div>
             <br><br>
         </div>
