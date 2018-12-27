@@ -61,11 +61,13 @@
             <p>Assista a mensagem do presidente da Honda South America no vídeo abaixo:</p>
 
             <video width="100%" class="img-responsive" controls autoplay>
-                <source src="/assets/Honda_Issao_legendada_menor_PT_181220.m4v" type="video/mp4">
-                <source src="/assets/Honda_Issao_legendada_menor_PT_181220.webm" type="video/webm">
+                <source src="https://s3-sa-east-1.amazonaws.com/vid-boas-vindas/honda_p1.mp4" type="video/mp4">
+                <source src="https://s3-sa-east-1.amazonaws.com/vid-boas-vindas/honda_p2.ogv" type="video/ogv">
                 Your browser does not support the video tag.
             </video>
-
+            <div class="clearfix">>
+            </div>
+            <br><br>
         </div>
 
     </div>
