@@ -59,7 +59,7 @@ Route::prefix('gp2018')->group(function(){
 
 
     Route::get('/regulamento','RegulationController@index');
-    
+
     //TELA TEMPORÁRIA
     Route::get('/em-breve', 'FeedbackController@comingsoon');
 
@@ -72,6 +72,70 @@ Route::prefix('gp2018')->group(function(){
      Route::get('/fim', 'FeedbackController@finish');
 
      Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
+
+
+    // Admin
+
+});
+
+
+
+Route::prefix('gp2019')->group(function(){
+
+
+    // Site
+    Route::get('/', function () {
+        return view('site.index');
+    });
+
+    Route::get('/cockpit','RegisterController@cockpit');
+
+    Route::get('/regulamento','RegulationController@index');
+
+    Route::get('/cadastro', 'RegisterController@create')->name('cadastro');
+
+    Route::post('/cadastro', 'RegisterController@store');
+
+    Route::get('/perguntas', 'AwnseredController@index')->name('question');
+
+    Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
+
+    Route::get('/gabarito', 'FeedbackController@index');
+
+    Route::get('/parabens', 'FeedbackController@congratualtions');
+
+    // Final
+    Route::get('/login', 'RegisterController@login');
+
+    Route::post('/login', 'RegisterController@storeLogin');
+
+    Route::get('/fim', 'FeedbackController@finish');
+
+    Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
+
+    Route::get('/encerrado', 'RegisterController@finish');
+
+    Route::get('/em-breve', 'FeedbackController@comingsoon');
+
+});
+
+Route::prefix('gp2019')->group(function(){
+
+
+    Route::get('/regulamento','RegulationController@index');
+
+    //TELA TEMPORÁRIA
+    Route::get('/em-breve', 'FeedbackController@comingsoon');
+
+    Route::get('/', 'RegisterController@finish');
+
+    Route::get('/login', 'RegisterController@login');
+
+    Route::post('/login', 'RegisterController@storeLogin');
+
+    Route::get('/fim', 'FeedbackController@finish');
+
+    Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
 
 
     // Admin
@@ -174,6 +238,12 @@ Auth::routes();
 //});
 
 //Route::get('/home', 'HomeController@index')->name('home');
+
+
+// Site
+Route::get('/bemvindo2019', function () {
+    return view('bemvindo2018.home');
+});
 
 Auth::routes();
 
