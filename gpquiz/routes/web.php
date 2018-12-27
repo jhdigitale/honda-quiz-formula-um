@@ -241,7 +241,7 @@ Auth::routes();
 
 
 // Site
-Route::get('/bemvindo2019', function () {
+Route::get('/boas-vindas', function () {
     return view('bemvindo2018.home');
 });
 
