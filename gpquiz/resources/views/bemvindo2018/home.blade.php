@@ -34,9 +34,9 @@
         }
 
         .logo-honda{
-            position: absolute;
-            right: 10%;
-            margin-right: 0px;
+            margin-right: 10%;
+            float: right;
+            margin-top: -70px;
         }
 
         .footer{
