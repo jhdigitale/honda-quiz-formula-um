@@ -24,11 +24,28 @@ class RegisterController extends Controller
 
     public function create(){
         $errorRegister = null;
-        return view('site.register', compact('errorRegister'));
+        $page = request()->route()->getPrefix();
+        $correctPage = 'site.register';
+
+        if($page == "/semana2019") {
+            $correctPage = 'semana2019.register';
+            //return view('semana2019.register', compact('errorRegister'));
+        }
+
+        return view($correctPage, compact('errorRegister'));
     }
 
     public function cockpit(){
-        return view('site.cockpit');
+
+        $page = request()->route()->getPrefix();
+        $correctPage = "site.cockpit";
+
+        if($page == "/semana2019") {
+            $correctPage = 'semana2019.cockpit';
+            //return view('semana2019.cockpit');
+        }
+
+        return view($correctPage);
     }
 
     public function login(){
@@ -37,6 +54,16 @@ class RegisterController extends Controller
     }
 
     public function store(){
+            $page = request()->route()->getPrefix();
+
+            $correctPage = 'site.register';
+            $succesPage = "question";
+
+            if($page == "/semana2019") {
+                $correctPage = 'semana2019.register';
+                $succesPage = 'question_2019';
+            }
+
 
             $login = [
                 'email' => request('email'),
@@ -54,15 +81,15 @@ class RegisterController extends Controller
 
                     if ($logged) {
                         //Auth::guard('register')->loginById($login->id);
-                        return redirect()->route('question');
+                        return redirect()->route($succesPage);
                     } else {
                         //Auth::guard('register')->loginById($login->id);
                         $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
-                        return view('site.register', compact('errorRegister'));
+                        return view($correctPage, compact('errorRegister'));
                     }
                 } catch (\Exception $exception){
                     $errorRegister = 'Erro 201 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
-                    return view('site.register', compact('errorRegister'));
+                    return view($correctPage, compact('errorRegister'));
 
                 }
 
@@ -74,6 +101,7 @@ class RegisterController extends Controller
                     'register' => 'required',
                     'cpf' => 'required',
                     'local' => 'required',
+                    'quiz' => 'required',
                 ]);
 
 
@@ -84,6 +112,7 @@ class RegisterController extends Controller
                     'register' => request('register'),
                     'cpf' => request('cpf'),
                     'local' => request('local'),
+                    'quiz' => request('quiz'),
                 ];
 
                 try {
@@ -94,20 +123,20 @@ class RegisterController extends Controller
                     if (!$logged) {
                         //Auth::guard('register')->loginById($login->id);
                         $errorRegister = 'Erro 202 - Verifique se o seu navegador está com os cookies habilitados e limpe o cache do browser (ctrl+f5), Após isso faça o registro novamente - Se o erro persistir entre contato com a equipe de comunicação interna informando o código do erro.';
-                        return view('site.register', compact('errorRegister'));
+                        return view($correctPage, compact('errorRegister'));
                     }
 
                 } catch (\PDOException $e) {
 
                     $errorRegister = 'Você já possui um registro, verifique se os dados estão corretos.';
-                    return view('site.register', compact('errorRegister'));
+                    return view($correctPage, compact('errorRegister'));
 
                 }
 
             }
 
-
-            return redirect()->route('question');
+            dd($succesPage);
+            return redirect()->route($succesPage);
     }
 
     public function storeLogin()

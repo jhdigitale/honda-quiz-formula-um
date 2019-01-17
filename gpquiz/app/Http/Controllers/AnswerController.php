@@ -10,8 +10,14 @@ class AnswerController extends Controller
 {
     //
     public function index(){
+        $page = request()->route()->getPrefix();
+        $correctPage = "site.questions";
 
-        return view('site.questions');
+        if($page == "/semana2019") {
+            $correctPage = 'semana2019.questions';
+        }
+
+        return view($correctPage);
 
     }
     public function store(Question $question){

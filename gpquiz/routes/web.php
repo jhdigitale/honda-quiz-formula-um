@@ -78,17 +78,14 @@ Route::prefix('gp2018')->group(function(){
 
 });
 
-
-
-Route::prefix('gp2019')->group(function(){
-
+Route::prefix('semana2019')->group(function(){
 
     // Site
     Route::get('/', function () {
-        return view('site.index');
+        return view('semana2019.index');
     });
 
-    Route::get('/cockpit','RegisterController@cockpit');
+    Route::get('/estudo','RegisterController@cockpit');
 
     Route::get('/regulamento','RegulationController@index');
 
@@ -96,7 +93,7 @@ Route::prefix('gp2019')->group(function(){
 
     Route::post('/cadastro', 'RegisterController@store');
 
-    Route::get('/perguntas', 'AwnseredController@index')->name('question');
+    Route::get('/perguntas', 'AwnseredController@index')->name('question_2019');
 
     Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
 

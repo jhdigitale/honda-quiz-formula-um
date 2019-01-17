@@ -16,7 +16,7 @@
           </div>
 
           <div class="col-md-6 left text-right">
-            <a class="btn btn-primary edit" href="/admin/question/{{ $question->id }}" >Voltar</a>
+            <a class="btn btn-primary edit" href="/admin/question/{{$quiz->id}}" >Voltar</a>
           </div>
         </div>
 

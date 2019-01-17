@@ -9,7 +9,14 @@ class RegulationController extends Controller
     //
     public function index(){
 
-        return view('site.regulamento');
+        $page = request()->route()->getPrefix();
+        $sucessPage = "site.regulamento";
+
+        if($page == "/semana2019") {
+            $sucessPage = "semana2019.regulamento";
+        }
+
+        return view($sucessPage);
 
     }
 

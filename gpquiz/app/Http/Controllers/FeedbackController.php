@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Awnsered;
 use App\Question;
 use App\Register;
+use App\Quiz;
 use Illuminate\Http\Request;
 use Barryvdh\DomPDF\Facade as PDF;
 use Illuminate\Support\Facades\Auth;
@@ -22,8 +23,30 @@ class FeedbackController extends Controller
     {
         //$data['model'] = $this->model->all();
 
+        $page = request()->route()->getPrefix();
+
+        //$correctPage = 'site.gabarito';
+        $succesPage = "site.gabarito";
+
+        if($page == "/semana2019") {
+            //$correctPage = 'semana2019.register';
+            $succesPage = "semana2019.gabarito";
+        }
+
+
         $user = Auth::guard('register')->user();
-        $questions = Question::where('quiz_id', '=', 1)->get();
+
+        $now = date('Y-m-d');
+
+        $quiz = Quiz::where('date_init', '<=', $now)
+            ->where('date_end', '>=', $now)
+            ->get();
+
+
+        $quizActive = $quiz->first()->id;
+
+        $questions = Question::where('quiz_id', '=', $quizActive)->get();
+
         $userAnswered = Awnsered::where('register_id', '=', $user->id)->get();
 
         $data['user'] = $user;
@@ -39,7 +62,7 @@ class FeedbackController extends Controller
             $i++;
         }
         
-        return PDF::loadView('site.gabarito', compact('data'))
+        return PDF::loadView($succesPage, compact('data'))
             ->stream();
     }
 
@@ -100,7 +123,15 @@ class FeedbackController extends Controller
     }
 
     public function congratualtions(){
-        return view('site.congratulation');
+
+        $page = request()->route()->getPrefix();
+        $sucessPage = "site.congratulation";
+
+        if($page == "/semana2019") {
+            $sucessPage = "semana2019.congratulation";
+        }
+
+        return view($sucessPage);
     }
 
     public function comingsoon(){

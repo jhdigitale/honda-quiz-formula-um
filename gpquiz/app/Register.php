@@ -36,6 +36,11 @@ class Register extends Authenticatable
         return $questions;
     }
 
+    public function questionsMultipleQuiz(){
+        $questions = Question::where('quiz_id', '=', 1);
+        return $questions;
+    }
+
 
 
 //    $questions = Question::where('quiz_id', '=', 1);
