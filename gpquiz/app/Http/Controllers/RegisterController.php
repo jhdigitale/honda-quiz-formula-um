@@ -135,7 +135,6 @@ class RegisterController extends Controller
 
             }
 
-            dd($succesPage);
             return redirect()->route($succesPage);
     }
 
