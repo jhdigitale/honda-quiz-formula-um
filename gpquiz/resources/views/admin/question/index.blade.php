@@ -21,7 +21,7 @@
           </div>
 
           <div class="col-md-6 left text-right">
-            <a class="btn btn-primary edit" href="/admin/question/1/create" >Novo</a>
+            <a class="btn btn-primary edit" href="/admin/question/{{ $quiz->id }}/create" >Novo</a>
           </div>
         </div>
 

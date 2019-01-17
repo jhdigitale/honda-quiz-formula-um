@@ -25,7 +25,8 @@ class QuestionController extends Controller
 
         ])->get();
 
-        return view('admin.question.index', compact('questions'));
+
+        return view('admin.question.index', ['quiz' => $quiz, 'questions' => $questions]);
 
     }
 
