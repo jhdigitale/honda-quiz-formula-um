@@ -20,7 +20,7 @@
             é só escolher "Iniciar".
 
             <div class="col-md-12 text-center">
-                <a href="/semana2019/estudo" class="button" style="margin-right: 10px;">
+                <a href="/semana2019/estudo" class="button">
                     ESTUDAR
                 </a>
 
