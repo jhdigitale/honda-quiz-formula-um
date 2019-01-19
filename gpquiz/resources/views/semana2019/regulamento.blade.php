@@ -15,14 +15,14 @@
 
 
                     <p>
-                        Esta atividade será realizada pela MOTO HONDA DA AMAZÔNIA LTDA., por sua filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: <hondaquiz.com.br/semana2019>.
+                        Esta atividade será realizada pela MOTO HONDA DA AMAZÔNIA LTDA., por sua filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: <hondaquiz.com.br/semana2019>
 
                     <p>
-                        Poderão participar do “Quiz – Semana da Sustentabilidade” quaisquer colaboradores das empresas ADMINISTRADORA DE CONSÓRCIO NACIONAL HONDA LTDA., BANCO HONDA S.A., CORRETORA DE SEGUROS HONDA LTDA., HONDA AUTOMÓVEIS DO BRASIL LTDA., HONDA ENERGY DO BRASIL LTDA., HONDA LEASING S.A., HONDA SERVIÇOS LTDA., HONDA SOUTH AMERICA LTDA., MOTO HONDA DA AMAZÔNIA LTDA., doravante denominadas como “Grupo Honda”.
+                        Poderão participar do “Quiz – Semana de Sustentabilidade” quaisquer colaboradores das empresas ADMINISTRADORA DE CONSÓRCIO NACIONAL HONDA LTDA., BANCO HONDA S.A., CORRETORA DE SEGUROS HONDA LTDA., HONDA AUTOMÓVEIS DO BRASIL LTDA., HONDA ENERGY DO BRASIL LTDA., HONDA LEASING S.A., HONDA SERVIÇOS LTDA., HONDA SOUTH AMERICA LTDA., MOTO HONDA DA AMAZÔNIA LTDA., doravante denominadas como “Grupo Honda”.
                     </p>
 
                     <p>
-                        O “Quiz – Semana da Sustentabilidade” tem como objetivo engajar os colaboradores do Grupo Honda no Brasil em uma atividade lúdica e desafiadora que testará os conhecimentos deles sobre a filosofia da empresa e aos itens do Código de Conduta. O “Quiz – Semana da Sustentabilidade” está sujeito ao seguinte Regulamento:
+                        O “Quiz – Semana de Sustentabilidade” tem como objetivo engajar os colaboradores do Grupo Honda no Brasil em uma atividade lúdica e desafiadora que testará os conhecimentos deles sobre a filosofia da empresa e aos itens do Código de Conduta. O “Quiz – Semana de Sustentabilidade” está sujeito ao seguinte Regulamento:
                     </p>
 
 
@@ -32,22 +32,22 @@
 
 
                     <p>
-                        1.1. O “Quiz – Semana da Sustentabilidade” estará aberto para a participação de todos os colaboradores pelo site <hondaquiz.com.br/semana>, do dia 25 de janeiro de 2019 a 06 de fevereiro de 2019
+                        1.1. O “Quiz – Semana de Sustentabilidade” estará aberto para a participação de todos os colaboradores pelo site <a href="hondaquiz.com.br/semana">hondaquiz.com.br/semana</a>, do dia 25 de janeiro de 2019 a 06 de fevereiro de 2019
                     </p>
 
 
 
 
-                    <h5>2. PARTICIPAÇÃ</h5>
+                    <h5>2. PARTICIPAÇÃO</h5>
 
 
                     <p>
-                        2.1. Estão habilitados a participar do “Quiz – Semana da Sustentabilidade”, todos os funcionários efetivos do Grupo Honda, de todas as unidades no Brasil e de todos os níveis hierárquicos. Não poderão participar deste “Quiz – Semana da Sustentabilidade” qualquer pessoa que esteja diretamente envolvida em qualquer aspecto na organização deste Concurso, bem como qualquer membro da equipe ESG.
+                        2.1. Estão habilitados a participar do “Quiz – Semana de Sustentabilidade”, todos os funcionários efetivos do Grupo Honda, de todas as unidades no Brasil e de todos os níveis hierárquicos. Não poderão participar deste “Quiz – Semana de Sustentabilidade” qualquer pessoa que esteja diretamente envolvida em qualquer aspecto na organização deste Concurso, bem como qualquer membro da equipe ESG.
                     </p>
 
 
                     <p>
-                        2.2. O Participante, ao aderir à presente promoção fica ciente de que, caso não esteja trabalhando na empresa durante a premiação do evento “Quiz – Semana da Sustentabilidade”, não terá direito ao prêmio, dando direito a outro funcionário que poderá ser sorteado.
+                        2.2. O Participante, ao aderir à presente promoção fica ciente de que, caso não esteja trabalhando na empresa durante a premiação do evento “Quiz – Semana de Sustentabilidade”, não terá direito ao prêmio, dando direito a outro funcionário que poderá ser sorteado.
                     </p>
 
 
@@ -63,7 +63,7 @@
                     </p>
 
                     <p>
-                        3.2. Cada participante poderá escolher apenas 01 (uma) resposta correta para cada questão deste                    </p>
+                        3.2. Cada participante poderá escolher apenas 01 (uma) resposta correta para cada questão deste.                    </p>
 
                     <p>
                         3.3. Os participantes que acertarem o maior número de questões do Quiz irão concorrer aos kits personalizados Honda destinados aos 1ºs lugares. Os participantes que acertarem o segundo maior número de respostas irão concorrer aos kits personalizados Honda destinados aos 2ºs lugares juntamente com os participantes que não foram contemplados no sorteio dos 1ºs lugares, assim consecutivamente até a 4ª colocação.
@@ -147,7 +147,7 @@
 
 
                     <p>
-                        4.1. O “Quiz – Semana da Sustentabilidade” tem como objetivo engajar os colaboradores da Honda no Brasil e reforçar o conhecimento deles sobre os itens do Código de Conduta
+                        4.1. O “Quiz – Semana de Sustentabilidade” tem como objetivo engajar os colaboradores da Honda no Brasil e reforçar o conhecimento deles sobre os itens do Código de Conduta.
                     </p>
 
 
@@ -199,10 +199,10 @@
                         </li>
 
                         <li>
-                            Participantes que praticarem ato ilegal, ilícito ou que atentem contra os objetivos e regras do “Quiz – Semana da Sustentabilidade” e deste Regulamento.                        </li>
+                            Participantes que praticarem ato ilegal, ilícito ou que atentem contra os objetivos e regras do “Quiz – Semana de Sustentabilidade” e deste Regulamento.                        </li>
 
                         <li>
-                            Colaboradores que tentarem se inscrever mais de uma vez serão desclassificados caso seja identificada duplicidade
+                            Colaboradores que tentarem se inscrever mais de uma vez serão desclassificados caso seja identificada duplicidade.
                         </li>
 
                         {{--<li>--}}

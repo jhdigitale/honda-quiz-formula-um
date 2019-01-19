@@ -1,6 +1,6 @@
 <table width="100%" text-align="center">
     <tr width="100%" text-align="center">
-        <td text-align="center"><img src="assets/sustentabilidade/logo.png" width="513"></td>
+        <td text-align="center" align="center"><img src="assets/sustentabilidade/logo.png" width="513"></td>
     </tr>
     <tr>
         <td><br><br><b>Nome</b>: {{ $data['user']->name }}</td>

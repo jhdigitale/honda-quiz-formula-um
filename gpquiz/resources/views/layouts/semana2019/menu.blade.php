@@ -3,7 +3,7 @@
     <div class="logo-honda">
         <a href="/semana2019"><img src="/assets/logo_honda.png"></a>
         <div class="menu-separator"></div>
-        <a href="/semana2019"><img src="/assets/sustentabilidade/esg.jpg"></a>
+        <a class="logo-esg" href="/semana2019"><img src="/assets/sustentabilidade/esg.jpg"></a>
 
     </div>
 

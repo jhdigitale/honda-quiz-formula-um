@@ -36,31 +36,42 @@
                           </div>
                           <div class="col-md-4 esp-margem planta no-padding-left ">
                               <select class="" name="local" required="required" placeholder="PLANTA" required="required" min="3" min-length="3">
+
                                   <option value="">PLANTA</option>
-                                  <option value="Manaus">Manaus</option>
-                                  <option value="Morumbi">Morumbi</option>
-                                  <option value="São Caetano">São Caetano</option>
-                                  <option value="CETH Indaiatuba">CETH Indaiatuba</option>
-                                  <option value="Peças Indaiatuba">Peças Indaiatuba</option>
-                                  <option value="Jaboatão">Jaboatão</option>
-                                  <option value="Recife">Recife</option>
-                                  <option value="Benevides">Benevides</option>
-                                  <option value="Sumaré - HAB">Sumaré - HAB</option>
-                                  <option value="Sumaré - HSA">Sumaré - HSA</option>
-                                  <option value="Sumaré - HRB/CPR">Sumaré - HRB/CPR</option>
-                                  <option value="Sumaré - Peças">Sumaré - Peças</option>
-                                  <option value="Sumaré - CT/MQC">Sumaré - CT/MQC</option>
-                                  <option value="Itirapina">Itirapina</option>
+
+
+                                  <option value="HSA">HSA</option>
+                                  <option value="HRB-S">HRB-S</option>
+                                  <option value="CPR">CPR</option>
+                                  <option value="Peças-SUM">Peças-SUM</option>
+                                  <option value="Peças-Indaiatuba">Peças-Indaiatuba</option>
+                                  <option value="IPL">IPL</option>
+                                  <option value="MQC">MQC</option>
+                                  <option value="DEQ">DEQ</option>
+                                  <option value="CT Recife">CT Recife</option>
                                   <option value="Paulínia">Paulínia</option>
-                                  <option value="Xangri-lá">Xangri-lá</option>
-                                  <option value="Cariacica">Cariacica</option>
-                                  <option value="Joinville">Joinville</option>
+                                  <option value="HAB I (Unidade Sumaré)">HAB I (Unidade Sumaré)</option>
+                                  <option value="HAB II (Unidade Itirapina)">HAB II (Unidade Itirapina)</option>
+                                  <option value="HDA (Unidade Manaus)">HDA (Unidade Manaus)</option>
+                                  <option value="HEN">HEN</option>
+                                  <option value="CETH Indaiatuba">CETH Indaiatuba</option>
+                                  <option value="CETH Recife">CETH Recife</option>
+                                  <option value="CETH Manaus">CETH Manaus</option>
+                                  <option value="MORUMBI (HSF/HDA/BHB)">MORUMBI (HSF/HDA/BHB)</option>
+                                  <option value="São Caetano do Sul">São Caetano do Sul</option>
+                                  <option value="Jaboatão">Jaboatão</option>
+                                  <option value="Benevides">Benevides</option>
+                                  <option value="HAR">HAR</option>
+                                  <option value="HSP">HSP</option>
+                                  <option value="HDP">HDP</option>
+                                  <option value="HMDC">HMDC</option>
+
                               </select>
                           </div>
                           <div class="clearfix"></div>
                           <br>
                           <div class="col-md-12 read-regulation no-padding-mobile">
-                              <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gp2018/regulamento" target="_blank">regulamento</a> da ação<br></b></span>
+                              <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/semana2019/regulamento" target="_blank">regulamento</a> da ação<br></b></span>
                           </div>
                           <br><br>
 

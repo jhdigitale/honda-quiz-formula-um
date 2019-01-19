@@ -47,7 +47,9 @@ class FeedbackController extends Controller
 
         $questions = Question::where('quiz_id', '=', $quizActive)->get();
 
-        $userAnswered = Awnsered::where('register_id', '=', $user->id)->get();
+        $userAnswered = Awnsered::where('register_id', '=', $user->id)
+            ->where('quiz_id', '>=', $quiz)
+            ->get();
 
         $data['user'] = $user;
         $data['questions'] = collect(new Question);
