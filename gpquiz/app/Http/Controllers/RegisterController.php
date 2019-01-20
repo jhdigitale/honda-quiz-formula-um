@@ -74,7 +74,7 @@ class RegisterController extends Controller
 
             $haveUsers = Register::where('register', '=', request('register'))->get()->count();
 
-            dd(request('register')->get());
+            dd(Register::where('register', '=', request('register'))->get());
 
             if($haveUsers > 0){
 
