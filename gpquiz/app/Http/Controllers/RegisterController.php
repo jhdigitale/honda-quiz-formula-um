@@ -74,6 +74,8 @@ class RegisterController extends Controller
 
             $haveUsers = Register::where('register', '=', request('register'))->get()->count();
 
+            dd($haveUsers);
+
             if($haveUsers > 0){
 
                 try {
@@ -118,7 +120,7 @@ class RegisterController extends Controller
                 try {
 
                     $user = Register::create($register);
-                    dd($user);
+
                     $logged = Auth::guard('register')->attempt($login);
 
                     if (!$logged) {
