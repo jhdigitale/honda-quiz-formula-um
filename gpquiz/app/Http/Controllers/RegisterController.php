@@ -118,6 +118,7 @@ class RegisterController extends Controller
                 try {
 
                     $user = Register::create($register);
+                    dd($user);
                     $logged = Auth::guard('register')->attempt($login);
 
                     if (!$logged) {
