@@ -78,7 +78,7 @@ Route::prefix('gp2018')->group(function(){
 
 });
 
-Route::prefix('semana2019')->group(function(){
+Route::prefix('semana')->group(function(){
 
     // Site
     Route::get('/', function () {
