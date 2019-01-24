@@ -15,7 +15,7 @@
 
 
                     <p>
-                        Esta atividade será realizada pela MOTO HONDA DA AMAZÔNIA LTDA., por sua filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: hondaquiz.com.br/semana20192019
+                        Esta atividade será realizada pela MOTO HONDA DA AMAZÔNIA LTDA., por sua filial estabelecida na Estrada Municipal Valêncio Calegari, 777, Parque Santo Antônio (Nova Veneza), Sumaré/SP, inscrita no CNPJ/MF sob nº 04.337.168/0004-90, organizada por meio do hotsite: hondaquiz.com.br/semana2019
 
                     <p>
                         Poderão participar do “Quiz – Semana de Sustentabilidade” quaisquer colaboradores das empresas ADMINISTRADORA DE CONSÓRCIO NACIONAL HONDA LTDA., BANCO HONDA S.A., CORRETORA DE SEGUROS HONDA LTDA., HONDA AUTOMÓVEIS DO BRASIL LTDA., HONDA ENERGY DO BRASIL LTDA., HONDA LEASING S.A., HONDA SERVIÇOS LTDA., HONDA SOUTH AMERICA LTDA., MOTO HONDA DA AMAZÔNIA LTDA., doravante denominadas como “Grupo Honda”.
@@ -57,7 +57,7 @@
 
 
                     <p>
-                        3.1. Para participar da presente promoção, os participantes deverão obrigatoriamente acessar o site hondaquiz.com.br/semana20192019 dentro do prazo de participação acima citado. No site, deverá informar
+                        3.1. Para participar da presente promoção, os participantes deverão obrigatoriamente acessar o site hondaquiz.com.br/semana2019 dentro do prazo de participação acima citado. No site, deverá informar
 
                         seu nome completo, e-mail corporativo ou pessoal, CPF, número de matrícula e planta em que trabalha para ganhar acesso ao Quiz, que é composto de 07 (sete) perguntas sobre temas do Código de Conduta.
                     </p>
@@ -176,7 +176,7 @@
 
 
                     <p>
-                        6.1. O resultado dos sorteios será publicado no dia 12 de fevereiro de 2019 nos canais de comunicação interna corporativa e no site hondaquiz.com.br/semana20192019.                    </p>
+                        6.1. O resultado dos sorteios será publicado no dia 12 de fevereiro de 2019 nos canais de comunicação interna corporativa e no site hondaquiz.com.br/semana2019.                    </p>
 
 
 
