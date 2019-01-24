@@ -123,7 +123,7 @@
                             <td>
                                 4º (quarto) lugar
 
-                                4 peças
+                                3 peças
                             </td>
                             <td>
                                 1 (um) Boné Honda, 1 (uma) Sacochila, e 1 (um) Chaveiro Honda (borracha)

@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.semana2019.layout')
 
 @section ('content')
     <div class="col-md-12 corpo">

@@ -20,7 +20,7 @@
                           <a href="/assets/sustentabilidade/files/codigoconduta_portugues.pdf" class="button" target="_blank"><strong>Código de Conduta</strong></a>
                       </div>
                       <div class="col-md-12 text-center">
-                          <a href="https://www.honda.com.br/automoveis/sites/cbw/files/sustentabilidade/relatorio_sustentabilidade_2017_ptbr.pdf" class="button" target="_blank"><strong>Filosofia Honda</strong><br></a>
+                          <a href="/assets/sustentabilidade/files/pocket_filosofia.pdf" class="button" target="_blank"><strong>Filosofia Honda</strong><br></a>
                       </div>
                       <div class="col-md-12 text-center">
                           <a href="/assets/sustentabilidade/files/cartilha_geral_final.pdf" class="button" target="_blank"><strong>Cartilha da Semana de Sustentabilidade</strong></a>

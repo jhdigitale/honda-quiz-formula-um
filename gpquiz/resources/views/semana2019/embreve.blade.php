@@ -1,10 +1,10 @@
-@extends('layouts.layout')
+@extends('layouts.semana2019.layout')
 
 @section ('content')
     <div class="col-md-12 corpo">
         <div class="logo-honda"></div>
         <div class="col-md-12 logo text-center logo">
-            <img src="/assets/logo.png">
+            <img src="/assets/sustentabilidade/logo.png" width="513">
         </div>
         <div class="col-md-6 col-md-offset-3 featured">
             <div class="text-center">
