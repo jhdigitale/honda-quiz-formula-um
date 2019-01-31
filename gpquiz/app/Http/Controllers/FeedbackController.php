@@ -47,14 +47,15 @@ class FeedbackController extends Controller
 
         $questions = Question::where('quiz_id', '=', $quizActive)->get();
 
+        if(!$user){
+            $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
+            return view('semana2019.register', compact('errorRegister'));
+        }
+
         $userAnswered = Awnsered::where('register_id', '=', $user->id)
             ->where('quiz_id', '>=', $quiz)
             ->get();
 
-        if($userAnswered->count() == 0){
-            $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
-            return view('semana2019.register', compact('errorRegister'));
-        }
 
         $data['user'] = $user;
         $data['questions'] = collect(new Question);
