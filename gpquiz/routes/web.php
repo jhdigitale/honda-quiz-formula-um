@@ -127,7 +127,7 @@ Route::prefix('semana2019')->group(function(){
 
     // Route::get('/estudo','RegisterController@cockpit');
 
-    // Route::get('/regulamento','RegulationController@index');
+     Route::get('/regulamento','RegulationController@index');
 
     // Route::get('/cadastro', 'RegisterController@create')->name('cadastro');
 
