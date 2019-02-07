@@ -49,7 +49,7 @@ class FeedbackController extends Controller
 
         if(!$user){
             $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
-            return view('semana2019.register', compact('errorRegister'));
+            redirect()->route($sucessPage);
         }
 
         $userAnswered = Awnsered::where('register_id', '=', $user->id)
@@ -143,7 +143,15 @@ class FeedbackController extends Controller
     }
 
     public function comingsoon(){
-        return view('site.embreve');
+
+        $page = request()->route()->getPrefix();
+        $sucessPage = "site.embreve";
+
+        if($page == "/semana2019") {
+            $sucessPage = "semana2019.embreve";
+        }
+
+        return view($sucessPage);
     }
 
     public function getCorrect(Register $register){

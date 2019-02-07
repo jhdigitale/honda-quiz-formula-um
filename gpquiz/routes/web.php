@@ -118,39 +118,41 @@ Route::prefix('semana')->group(function(){
 
 Route::prefix('semana2019')->group(function(){
 
+    Route::get('/', 'FeedbackController@comingsoon');
+
     // Site
-    Route::get('/', function () {
-        return view('semana2019.index');
-    });
+    // Route::get('/', function () {
+    //     return view('semana2019.index');
+    // });
 
-    Route::get('/estudo','RegisterController@cockpit');
+    // Route::get('/estudo','RegisterController@cockpit');
 
-    Route::get('/regulamento','RegulationController@index');
+    // Route::get('/regulamento','RegulationController@index');
 
-    Route::get('/cadastro', 'RegisterController@create')->name('cadastro');
+    // Route::get('/cadastro', 'RegisterController@create')->name('cadastro');
 
-    Route::post('/cadastro', 'RegisterController@store');
+    // Route::post('/cadastro', 'RegisterController@store');
 
-    Route::get('/perguntas', 'AwnseredController@index')->name('question_2019');
+    // Route::get('/perguntas', 'AwnseredController@index')->name('question_2019');
 
-    Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
+    // Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
 
-    Route::get('/gabarito', 'FeedbackController@index');
+    // Route::get('/gabarito', 'FeedbackController@index');
 
-    Route::get('/parabens', 'FeedbackController@congratualtions');
+    // Route::get('/parabens', 'FeedbackController@congratualtions');
 
-    // Final
-    Route::get('/login', 'RegisterController@login');
+    // // Final
+    // Route::get('/login', 'RegisterController@login');
 
-    Route::post('/login', 'RegisterController@storeLogin');
+    // Route::post('/login', 'RegisterController@storeLogin');
 
-    Route::get('/fim', 'FeedbackController@finish');
+    // Route::get('/fim', 'FeedbackController@finish');
 
-    Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
+    // Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
 
-    Route::get('/encerrado', 'RegisterController@finish');
+    // Route::get('/encerrado', 'RegisterController@finish');
 
-    Route::get('/em-breve', 'FeedbackController@comingsoon');
+    // Route::get('/em-breve', 'FeedbackController@comingsoon');
 
 });
 

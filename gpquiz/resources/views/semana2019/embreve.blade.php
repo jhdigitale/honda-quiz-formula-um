@@ -19,14 +19,24 @@
                     </p> -->
 
                     <p>
-                        Agradecemos a todos que responderam ao GP Quiz 2018!<br/>
-                        Para que você saiba até onde chegou o seu Racing Spirit, 
-                        <b>em breve, divulgaremos o gabarito com as respostas corretas e na próxima semana confira os ganhadores aqui no site e também nos canais de Comunicação Interna.</b>
+                        O Quiz da Semana de Sustentabilidade chegou ao fim. Foi uma ótima oportunidade de nos aprofundarmos nas condutas e Filosofia que sustentam a Honda, não apenas por uma empresa mais ética, mas também por uma sociedade melhor.
+                        <br/><br/>
+                        Baixe o gabarito e confira as respostas corretas.
+                           <br><br>
+                           <a href="/assets/sustentabilidade/files/gabarito_respostas_corretas_quiz_semana_sustentabilidade.pdf" target="_blank" class="button">
+                                GABARITO
+                            </a>
                     </p>
 
-                    <p class="boa-sorte">
-                        <b>BOA SORTE!</b>
+                    
+                            
+                        
+                    <p>
+                        A partir de 12 de fevereiro, divulgaremos os vencedores do Quiz nesta página.
                     </p>
+                    <!-- <p class="boa-sorte">
+                        <b>BOA SORTE!</b>
+                    </p> -->
 
                 </div>
                 <br>
