@@ -34,9 +34,10 @@
                     <p>
                         A partir de 12 de fevereiro, divulgaremos os vencedores do Quiz nesta página.
                     </p>
-                    <!-- <p class="boa-sorte">
-                        <b>BOA SORTE!</b>
-                    </p> -->
+
+                    <p class="boa-sorte" style="color:#0075c1;">
+                        <b>Agradecemos a todos que participaram!</b>
+                    </p>
 
                 </div>
                 <br>
