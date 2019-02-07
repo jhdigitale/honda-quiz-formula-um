@@ -119,7 +119,7 @@ class WinnerController extends Controller
     public function getCorrect(Register $register){
 
 
-        $questions = Question::where('quiz_id', '=', 1)->get();
+        $questions = Question::where('quiz_id', '=', 2)->get();
         $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
 
         $data['user'] = $register;
