@@ -278,9 +278,9 @@ Auth::routes();
 
 
 // Site
-Route::get('/boas-vindas', function () {
-    return view('bemvindo2018.home');
-});
+// Route::get('/boas-vindas', function () {
+//     return view('bemvindo2018.home');
+// });
 
 Auth::routes();
 
