@@ -77,6 +77,7 @@
                         float: left;
                         width: 100%;
                         line-height: 24px;
+                        text-transform: uppercase;
                     }
                     .corpo-tabela .linha:nth-child(even)
                     {
