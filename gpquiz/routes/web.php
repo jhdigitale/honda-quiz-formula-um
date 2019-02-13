@@ -118,7 +118,15 @@ Route::prefix('semana')->group(function(){
 
 Route::prefix('semana2019')->group(function(){
 
-    Route::get('/', 'FeedbackController@comingsoon');
+
+    // Route::get('/', function () {
+    //     return view('semana2019.index');
+    // });
+
+    Route::get('/', 'RegisterController@finishSemana');
+
+    //Route::get('/', 'FeedbackController@comingsoon');
+
 
     // Site
     // Route::get('/', function () {

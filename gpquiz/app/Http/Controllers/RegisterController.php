@@ -202,4 +202,34 @@ class RegisterController extends Controller
 
         return view('site.encerrado', compact('winners'));
     }
+
+    public function finishSemana(){
+
+        $winners["semana_1"] = Register::where('semana_1', '=', 1)->orderBy('name','ASC')->get();
+        $winners["semana_2"] = Register::where('semana_2', '=', 1)->orderBy('name','ASC')->get();
+        $winners["semana_3"] = Register::where('semana_3', '=', 1)->orderBy('name','ASC')->get();
+        $winners["semana_4"] = Register::where('semana_4', '=', 1)->orderBy('name','ASC')->get();
+
+        // $plantas = Register::select('local')->distinct()->get();
+        // $locais = collect();
+
+        // foreach ($plantas as $planta){
+
+        //     $plantaNome = $planta->local;
+        //     $plantaUsuariosWin = Register::where('local', '=', $plantaNome)->where('winner', '=', 1)->get();
+        //     $plantaUsuariosKit = Register::where('local', '=', $plantaNome)->where('kit', '=', 1)->get();
+
+        //     $plantaFinal['planta'] = $plantaNome;
+        //     $plantaFinal['usuariosWin'] = $plantaUsuariosWin;
+        //     $plantaFinal['usuariosKit'] = $plantaUsuariosKit;
+
+        //     $locais->push($plantaFinal);
+
+
+        // }
+
+        // //dd($locais);
+
+        return view('semana2019.encerrado', compact('winners'));
+    }
 }
