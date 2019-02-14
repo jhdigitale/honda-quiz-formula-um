@@ -14,9 +14,10 @@
                     <br><br>
                     Agradecemos a participação de todos!
                     <br><br>
-                    <b>HDA (unidade Manaus) / HAB Sumaré / HAB Itirapina</b>: a partir do dia 18/02 entrar em contato com o departamento de Comunicação de sua unidade para retirada dos prêmios. <b>Demais unidades</b>: aguarde o contato da área ESG para retirada do seu prêmio.
-
-
+                    Colaboradores: a retirada dos prêmio acontecerá a partir do dia 18/02, favor entrar em contato com o departamento responsável de sua unidade.<br>
+                    <b>HDA (unidade Manaus)</b>: Departamento de Gestão Ambiental<br>
+                    <b>HAB Sumaré/ HAB Itirapina</b>:  DRH/Comunicação<br>
+                    <b>Demais unidades</b>: Aguarde o contato da área ESG
                     
                     <div class="clearfix"></div>
 
@@ -43,6 +44,7 @@
                         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8e3f+0,ff3e3b+100 */
                         background-color: #f38d00;
                         border-radius: 10px 10px 0px 0px
+                        font-weight:bold;
                     }
 
                     .header-tabela{
