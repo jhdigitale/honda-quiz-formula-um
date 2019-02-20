@@ -14,7 +14,7 @@
                     <br><br>
                     Agradecemos a participação de todos!
                     <br><br>
-                    Colaboradores: a retirada dos prêmio acontecerá a partir do dia 18/02, favor entrar em contato com o departamento responsável de sua unidade.<br>
+                    Colaboradores: a retirada dos prêmios acontecerá a partir do dia 18/02, favor entrar em contato com o departamento responsável de sua unidade.<br>
                     <b>HDA (unidade Manaus)</b>: Departamento de Gestão Ambiental<br>
                     <b>HAB Sumaré/ HAB Itirapina</b>:  DRH/Comunicação<br>
                     <b>Demais unidades</b>: Aguarde o contato da área ESG
