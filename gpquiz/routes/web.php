@@ -290,7 +290,7 @@ Auth::routes();
 //     return view('bemvindo2018.home');
 // });
 
-Route::get('/boas-vindas', function () {
+Route::get('/maioamarelo', function () {
     return view('embed.index');
 });
 
