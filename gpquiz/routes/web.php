@@ -290,6 +290,10 @@ Auth::routes();
 //     return view('bemvindo2018.home');
 // });
 
+Route::get('/boas-vindas', function () {
+    return view('embed.index');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
