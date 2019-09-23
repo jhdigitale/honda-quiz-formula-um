@@ -33,6 +33,11 @@ class FeedbackController extends Controller
             $succesPage = "semana2019.gabarito";
         }
 
+        if($page == "/gp2019") {
+            //$correctPage = 'semana2019.register';
+            $succesPage = "site2019.gabarito";
+        }
+
 
         $user = Auth::guard('register')->user();
 
@@ -117,7 +122,7 @@ class FeedbackController extends Controller
             $i++;
         }
 
-        return PDF::loadView('site.gabarito-final', compact('data'))
+        return PDF::loadView('site2019.gabarito-final', compact('data'))
             ->stream();
 
     }
@@ -139,6 +144,10 @@ class FeedbackController extends Controller
             $sucessPage = "semana2019.congratulation";
         }
 
+        if($page == "/gp2019") {
+            $sucessPage = "site2019.congratulation";
+        }
+
         return view($sucessPage);
     }
 
@@ -149,6 +158,10 @@ class FeedbackController extends Controller
 
         if($page == "/semana2019") {
             $sucessPage = "semana2019.embreve";
+        }
+
+        if($page == "/site2019") {
+            $sucessPage = "site2019.embreve";
         }
 
         return view($sucessPage);

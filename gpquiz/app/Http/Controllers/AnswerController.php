@@ -17,6 +17,10 @@ class AnswerController extends Controller
             $correctPage = 'semana2019.questions';
         }
 
+        if($page == "/gp2019") {
+            $correctPage = 'site2019.questions';
+        }
+
         return view($correctPage);
 
     }
