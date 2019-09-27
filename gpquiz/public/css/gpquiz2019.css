@@ -655,10 +655,11 @@ footer {
 }
 .read-regulation{
   font-weight: 800;
-  color: #4d4d4f;
+  color: #fbfbfb;
+  text-shadow: 1px 1px #000;
 }
 .read-regulation a {
-  color: #4d4d4f;
+  color: #f9fafd;
   text-decoration: underline;
 }
 .sidebarmenu {

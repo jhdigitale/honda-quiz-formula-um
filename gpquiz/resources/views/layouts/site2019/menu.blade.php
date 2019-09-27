@@ -14,6 +14,9 @@
         <a href="/gp2019">GP Quiz 2019</a>
       </li>
       <li>
+        <a href="/gp2019/cockpit">Área de Estudo</a>
+      </li>
+      <li>
         <a href="/gp2019/regulamento">Regulamento</a>
       </li>
       <!-- <li>

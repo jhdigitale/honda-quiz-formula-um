@@ -58,7 +58,7 @@
                                   <option value="Paulínia">Paulínia</option>
                                   <option value="Xangri-lá">Xangri-lá</option>
                                   <option value="Cariacica">Cariacica</option>
-                                  <option value="Joinville">Joinville</option>
+                                  {{--<option value="Joinville">Joinville</option>--}}
                               </select>
                           </div>
                           <div class="clearfix"></div>
