@@ -2,6 +2,10 @@
 
 
 @section ('content')
+
+<meta name="csrf-token" content="{{ csrf_token() }}">
+
+
        <div class="content-wrapper">
 
            {{ csrf_field() }}
@@ -56,7 +60,7 @@
                   <th><a href="/admin/winners/{{ $register->id }}/pdf">{{ $register->correct }}</a></th>
 
                         <th>
-                            <a href="/admin/winners/{{ $register->id }}"><span class="fa fa-edit"></span></a>
+                            <a href="{{ $register->id }}"><span class="fa fa-edit"></span></a>
                             <a href="{{ $register->id }}" class="remove"><span class="fa fa-close"></span></a>
                         </th>
 
@@ -102,6 +106,12 @@
 
 @section('scripts')
     <script>
+
+      $.ajaxSetup({
+          headers: {
+              'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+          }
+      });
 
         $(".winner").bind('change', function(){
             let value = this.checked; //<---
@@ -163,6 +173,31 @@
 
             //alert(val);
         });
+
+        $(function(){
+
+          $(".remove").click(function(e){
+              e.preventDefault();
+
+              if (confirm('Você deseja deletar este dado?')) {
+
+                  let register = $(this).attr("href");
+
+                  $.ajax({
+                      type: 'POST',
+                      url: '/admin/winners/'+ register + '/delete',
+                      data: {register: register, _method: "PATCH"},
+                      success: function(data) {
+                          //$('body').append(data);
+                          //alert(data);
+                          window.location.reload();
+                      }
+                  });
+              }
+
+          });
+
+          });
 
         //$("#local").val($("#local_hdn").val());
 

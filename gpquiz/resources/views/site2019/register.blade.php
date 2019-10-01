@@ -64,7 +64,7 @@
                           <div class="clearfix"></div>
                           <br>
                           <div class="col-md-12 read-regulation no-padding-mobile">
-                              <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gp2018/regulamento" target="_blank">regulamento</a> da ação<br></b></span>
+                              <input type="checkbox" value="true" name="check" id="verificado"><span><b> Li e concordo com o <a href="/gp2019/regulamento" target="_blank">regulamento</a> da ação<br></b></span>
                           </div>
                           <br><br>
 

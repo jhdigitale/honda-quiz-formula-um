@@ -25,8 +25,8 @@
         <div class="col-md-6 text-left">
           <img class="icon-home" src="/assets/ico1.png">
           <div class="box-colored">
-            <p><strong>O Grande Prêmio da Honda tem 4 temas:</strong>
-            Competições, Filosofia Honda, História da Honda e Segurança no Trânsito. Estude cada um deles e aprimore seus conhecimentos.</p>
+            <p><strong>O Grande Prêmio da Honda está dividido em 4 temas:</strong>
+            Competições, Filosofia Honda, História da Marca e Segurança no Trânsito. Estude cada um deles e aprimore seus conhecimentos.</p>
               <a href="/gp2019/cockpit" class="button">CONFIRA</a>
           </div>
 

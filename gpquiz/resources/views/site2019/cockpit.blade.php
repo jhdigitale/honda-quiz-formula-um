@@ -23,7 +23,7 @@
                   </div> -->
                   
                   <div class="col-md-12 text-center">
-                      <a href="http://owncloud.honda.com.br/owncloud/public.php?service=files&t=b86c406c1c0abd59b023aa4f1ec1c461&download&path=//Filosofia_Honda.pdf" class="button" target="_blank"><strong>Filosofia Honda</strong></a>
+                      <a href="/assets/pocket_filosofia_honda_portugues.pdf" class="button" target="_blank"><strong>Filosofia Honda</strong></a>
                   </div>
 
                   <div class="col-md-12 text-center">
