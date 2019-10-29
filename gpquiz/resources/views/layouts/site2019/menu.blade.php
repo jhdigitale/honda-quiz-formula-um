@@ -11,11 +11,11 @@
 <div class="sidebarmenu">
      <ul>
       <li>
-        <a href="/gp2019">GP Quiz 2019</a>
+        <a href="/">GP Quiz 2019</a>
       </li>
-      <li>
+      {{-- <li>
         <a href="/gp2019/cockpit">Área de Estudo</a>
-      </li>
+      </li> --}}
       <li>
         <a href="/gp2019/regulamento">Regulamento</a>
       </li>

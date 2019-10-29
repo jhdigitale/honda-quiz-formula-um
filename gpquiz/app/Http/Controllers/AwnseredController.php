@@ -58,14 +58,10 @@ class AwnseredController extends Controller
 
                 $answeredsPosition = Awnsered::where($search)->get()->count();
 
-
-
                 $search = [
                     ['quiz_id', '=', $quizActive]
                 ];
-
-
-
+                
                 $questions = Question::where($search)->get();
                 //$question = Question::find($search)->get();
 

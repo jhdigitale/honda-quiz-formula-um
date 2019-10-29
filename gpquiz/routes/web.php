@@ -170,10 +170,15 @@ Route::prefix('semana2019')->group(function(){
 Route::prefix('gp2019')->group(function(){
 
     // Site
-    Route::get('/', function () {
+    /*Route::get('/', function () {
          return view('site2019.index');
-    });
+    });*/
 
+    //Route::get('/', 'FeedbackController@comingsoon');
+
+    Route::get('/regulamento','RegulationController@index');
+
+    /*
     Route::get('/cockpit','RegisterController@cockpit');
 
     Route::get('/regulamento','RegulationController@index');
@@ -190,6 +195,8 @@ Route::prefix('gp2019')->group(function(){
 
     Route::get('/parabens', 'FeedbackController@congratualtions');
 
+    */
+
     // Final
     Route::get('/login', 'RegisterController@login');
 
@@ -201,8 +208,8 @@ Route::prefix('gp2019')->group(function(){
 
     Route::get('/encerrado', 'RegisterController@finish');
 
-    Route::get('/em-breve', 'FeedbackController@comingsoon');
-
+    //Route::get('/em-breve', 'FeedbackController@comingsoon');
+    
 });
 
 
@@ -294,6 +301,12 @@ Route::prefix('admin')->group(function(){
 // 6 Regulation
     Route::get('/regulation', 'RegulationController@indexAdmin');
 
+});
+
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    dd($exitCode);
+    // return what you want
 });
 
 Auth::routes();

@@ -19,9 +19,9 @@
                     </p> -->
 
                     <p>
-                        Agradecemos a todos que responderam ao GP Quiz 2018!<br/>
+                        Agradecemos a todos que responderam ao GP Quiz 2019!<br/>
                         Para que você saiba até onde chegou o seu Racing Spirit, 
-                        <b>em breve, divulgaremos o gabarito com as respostas corretas e na próxima semana confira os ganhadores aqui no site e também nos canais de Comunicação Interna.</b>
+                        <b>em breve, divulgaremos o gabarito com as respostas corretas e em breve confira os ganhadores aqui no site e também nos canais de Comunicação Interna.</b>
                     </p>
 
                     <p class="boa-sorte">

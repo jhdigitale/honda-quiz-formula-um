@@ -21,6 +21,10 @@ class WinnerController extends Controller
 
     public function index(){
 
+        // TROCAR ID TODAS AS VEZES?
+
+
+
         //$registers = Awnsered::where('quiz_id', '=', '1')->distinct('register_id');
         $registersInit = Register::all();
         //dd($registers);
@@ -43,9 +47,7 @@ class WinnerController extends Controller
 
     public function excel(){
 
-        //$registers = Awnsered::where('quiz_id', '=', '1')->distinct('register_id');
         $registersInit = Register::all();
-        //dd($registers);
         $registers = collect(new Register);
 
 
@@ -119,7 +121,7 @@ class WinnerController extends Controller
     public function getCorrect(Register $register){
 
 
-        $questions = Question::where('quiz_id', '=', 2)->get();
+        $questions = Question::where('quiz_id', '=', 3)->get();
         $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
 
         $data['user'] = $register;

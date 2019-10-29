@@ -83,7 +83,7 @@ class FeedbackController extends Controller
     public function gabaritoCorreto(){
 
         $register = Auth::guard('register')->user();
-        $questions = Question::where('quiz_id', '=', 1)->get();
+        $questions = Question::where('quiz_id', '=', 3)->get();
         $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
 
         $data['user'] = $register;
@@ -164,13 +164,19 @@ class FeedbackController extends Controller
             $sucessPage = "site2019.embreve";
         }
 
+
+        if($page == "/gp2019") {
+            $sucessPage = "site2019.embreve";
+        }
+
         return view($sucessPage);
     }
 
     public function getCorrect(Register $register){
 
-
-        $questions = Question::where('quiz_id', '=', 1)->get();
+        // TROCAR ID TODAS AS VEZES?
+        
+        $questions = Question::where('quiz_id', '=', 3)->get();
         $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
 
         $data['user'] = $register;
