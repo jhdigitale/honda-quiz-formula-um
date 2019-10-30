@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.site2019.layout')
 
 @section ('content')
     <div class="col-md-12 corpo">
@@ -20,7 +20,7 @@
                     <p>Confira todas as respostas corretas em nosso gabarito:</p>
                 </div>
                 <br>
-                <a href="/assets/gabarito_gpquiz2018.pdf" target="_blank" class="button" id="parabens">GABARITO</a>
+                <a href="/assets/gabarito_gpquiz2019.pdf" target="_blank" class="button" id="parabens">GABARITO</a>
             </div>
         </div>
     </div>

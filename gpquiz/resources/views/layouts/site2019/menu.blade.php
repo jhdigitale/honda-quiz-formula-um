@@ -11,7 +11,7 @@
 <div class="sidebarmenu">
      <ul>
       <li>
-        <a href="/">GP Quiz 2019</a>
+        <a href="/gp2019">GP Quiz 2019</a>
       </li>
       {{-- <li>
         <a href="/gp2019/cockpit">Área de Estudo</a>
@@ -19,9 +19,9 @@
       <li>
         <a href="/gp2019/regulamento">Regulamento</a>
       </li>
-      <!-- <li>
-        <a href="/gp2018/login">Gabarito - Login</a>
-      </li> -->
+      <li>
+        <a href="/gp2019/login">Gabarito - Login</a>
+      </li>
      </ul>
 </div>
 

@@ -12,7 +12,7 @@
 
                     <p class="text-left">O GP Quiz 2019 chegou ao fim. Foi uma competição com centenas de pilotos habilidosos colocando seus conhecimentos à prova nos 3 circuitos: de Competições, de Filosofia e de Fórmula 1. <b>Agradecemos a todos que participaram!</b>
                     <br><br>
-                    Agora chegou a hora de descobrir quais são os ganhadores do GP Quiz 2018, <b>que irão curtir o GP do Brasil em Interlagos com tudo pago. E confira também, os pilotos sortudos que ganharam nosso kit especial:</b></p>
+                    Agora chegou a hora de descobrir quais são os ganhadores do GP Quiz 2019, <b>que irão curtir o GP do Brasil em Interlagos com tudo pago. E confira também, os pilotos sortudos que ganharam nosso kit especial:</b></p>
 
 
                    
@@ -61,7 +61,9 @@
                         background: linear-gradient(to right, #ff3e3b -1%,#ff3e3b 0%,#ff8e3f 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e3b', endColorstr='#ff8e3f',GradientType=1 ); /* IE6-9 */
                     }
-
+                    .corpo-tabela{
+                        text-transform: uppercase;
+                    }
                     @media(max-width: 990px){
                         .header-tabela{
                             display: none;

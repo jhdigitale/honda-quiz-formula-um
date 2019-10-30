@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.site2019.layout')
 
 @section ('content')
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -23,7 +23,7 @@
                             <!-- <p>Na próxima semana, confira os ganhadores aqui no site e também nos canais de Comunicação Interna!</p> -->
                         </div>
                     </div>
-                    <form method="POST" action="/gp2018/login" id="form-enviar">
+                    <form method="POST" action="/gp2019/login" id="form-enviar">
 
 
                         {{ csrf_field() }}

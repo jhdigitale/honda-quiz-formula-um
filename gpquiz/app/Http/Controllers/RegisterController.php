@@ -58,7 +58,10 @@ class RegisterController extends Controller
 
     public function login(){
         $errorRegister = null;
-        return view('semana2010.login', compact('errorRegister'));
+
+        return view('site2019.login', compact('errorRegister'));
+
+        //return view('semana2010.login', compact('errorRegister'));
     }
 
     public function store(){

@@ -132,7 +132,9 @@ class FeedbackController extends Controller
         $register = Register::find($register->id);
         $register->correct = FeedbackController::getCorrect($register);
 
-        return view('site.finish', compact('register'));
+        return view('site2019.finish', compact('register'));
+
+        //return view('site.finish', compact('register'));
     }
 
     public function congratualtions(){
