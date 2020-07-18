@@ -1,0 +1,23 @@
+- Corrigir o logo no alto da página - mudou em fevereiro a largura do slogan abaixo do logo :) - segue anexo em PSD
+
+(menu ou navbar - site 2019) OK - Inserir um link para os conteúdos de estudo no menu lateral, entre GP Quiz 2019 e o Regulamento - com nome Área de Estudo 
+
+(cockiptit - site 2019)OK - Na página hondaquiz.com.br/gp2019/cockpit, deixar o site oficial da F1 em último na lista, começar então com Filosofia, depois Site Oficial Honda F1 e na sequência Site Oficial de F1 
+
+(gpquiz css) - Melhorar a leitura do texto “Li e concordo com o regulamento da ação” (aumentar e a cor) - é possível?
+
+- Excluir a unidade Joinville como uma das opções de planta na página de cadastro (se não for possível ok)
+
+- O link na área de estudo que está sendo direcionado para baixar o conteúdo de Filosofia foi feito na owncload da Honda, mas ela está oscilando muito e pode dar problema, então eles pediram para subirmos direto no site. É possível? Anexo o pdf que o usuário deve ter acesso (pocket_filosofia_portugues)
+
+- Na home, ajustar o texto: O Grande Prêmio da Honda está dividido em 4 temas: Competições, Filosofia Honda, História da Marca e Segurança no Trânsito. Estude cada um deles e aprimore seus conhecimentos.
+
+- Inserir o regulamento (anexo).
+
+Uma dúvida do cliente: 
+
+"Sem completar o quiz, é possível sair e entrar de novo, iniciando pela pergunta 1. Podemos ter algum bloqueio (pelo CPF, por exemplo), para que quem entrou e não terminou de preencher as respostas não consiga acessar o quiz novamente?"
+
+Eu não notei isso, na verdade nos testes que fiz quando clicamos em voltar, o quiz vai para tela de cadastro e ao preencher com os mesmos dados é permiido continuar o quiz, voltando para última pergunta que não foi respondida, sendo assim possível sair e voltar e continuar respondendo as perguntas..
+
+Isso não pode acontecer, ok? Este tipo de bloqueio é feito depois né? Ou melhor, você só ativa a opção do usuário de não conseguir sair e voltar depois que fizermos os ajustes nas telas, correto?

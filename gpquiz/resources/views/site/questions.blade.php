@@ -34,7 +34,7 @@
                 @endforeach
             </div>
 
-            <form id="enviar-questao" method="POST" action="/gp2018/perguntas/{{$question->id}}/salvar">
+            <form id="enviar-questao" method="POST" action="/gp2019/perguntas/{{$question->id}}/salvar">
 
                 {{ csrf_field() }}
 

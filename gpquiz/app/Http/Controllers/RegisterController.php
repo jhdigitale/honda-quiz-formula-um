@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Awnsered;
 use App\Register;
+use App\Quiz;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use PhpParser\Node\Expr\Cast\Object_;
@@ -19,7 +20,7 @@ class RegisterController extends Controller
 
     public function home(){
 //        $errorRegister = null;
-        return redirect("/gp2018");
+        return redirect("/gp2019");
     }
 
     public function create(){
@@ -29,6 +30,11 @@ class RegisterController extends Controller
 
         if($page == "/semana2019") {
             $correctPage = 'semana2019.register';
+            //return view('semana2019.register', compact('errorRegister'));
+        }
+
+        if($page == "/gp2019") {
+            $correctPage = 'site2019.register';
             //return view('semana2019.register', compact('errorRegister'));
         }
 
@@ -43,6 +49,8 @@ class RegisterController extends Controller
         if($page == "/semana2019") {
             $correctPage = 'semana2019.cockpit';
             //return view('semana2019.cockpit');
+        } else if($page == "/gp2019"){
+            $correctPage = 'site2019.cockpit';
         }
 
         return view($correctPage);
@@ -50,7 +58,10 @@ class RegisterController extends Controller
 
     public function login(){
         $errorRegister = null;
-        return view('site.login', compact('errorRegister'));
+
+        return view('site2019.login', compact('errorRegister'));
+
+        //return view('semana2010.login', compact('errorRegister'));
     }
 
     public function store(){
@@ -64,6 +75,11 @@ class RegisterController extends Controller
                 $succesPage = 'question_2019';
             }
 
+            if($page == "/gp2019") {
+                $correctPage = 'site2019.register';
+                $succesPage = 'question_2019';
+            }
+
 
             $login = [
                 'email' => request('email'),
@@ -72,16 +88,51 @@ class RegisterController extends Controller
                 'cpf' => request('cpf'),
             ];
 
+            
+
             $haveUsers = Register::where('register', '=', request('register'))->get()->count();
 
+            //dd($haveUsers);
             //dd(Register::where('register', '=', request('register'))->get());
 
             if($haveUsers > 0){
 
+                //$errorRegister = 'Sua participação já foi registrada em nosso sistema. Obrigado.';
+                //return view($correctPage, compact('errorRegister'));
+
+                // Travei o cara no p´roximo login.
                 try {
+                    //dd(Auth::guard('register')->attempt($login));
+
                     $logged = Auth::guard('register')->attempt($login);
+                        
+                    
+                    //dd($logged);
 
                     if ($logged) {
+
+                        //dd(Auth::guard('register')->register());
+
+                        $now = date('Y-m-d');
+
+                        $quiz = Quiz::where('date_init', '<=', $now)
+                            ->where('date_end', '>=', $now)
+                            ->get();
+
+
+                        $quizActive = $quiz->first()->id;
+                        $search = [
+                            ['quiz_id', '=', $quizActive],
+                            ['register_id', '=', Auth::guard('register')->user()->id]
+                        ];
+                        $answeredsPosition = Awnsered::where($search)->get()->count();
+
+                        if($answeredsPosition > 0){
+                            $errorRegister = 'Sua participação já foi registrada em nosso sistema. Obrigado.';
+                            return view($correctPage, compact('errorRegister'));
+
+                        }
+
                         //Auth::guard('register')->loginById($login->id);
                         return redirect()->route($succesPage);
                     } else {
@@ -97,6 +148,9 @@ class RegisterController extends Controller
 
             } else {
 
+                
+                //dd(request());
+
                 $this->validate(request(), [
                     'name' => 'required',
                     'email' => 'required',
@@ -106,6 +160,7 @@ class RegisterController extends Controller
                     'quiz' => 'required',
                 ]);
 
+                
 
                 $register = [
                     'name' => request('name'),
@@ -117,10 +172,11 @@ class RegisterController extends Controller
                     'quiz' => request('quiz'),
                 ];
 
+                
+
                 try {
-
+                   
                     $user = Register::create($register);
-
                     $logged = Auth::guard('register')->attempt($login);
 
                     if (!$logged) {
@@ -156,7 +212,7 @@ class RegisterController extends Controller
 
             if ($logged) {
                 //Auth::guard('register')->loginById($login->id);
-                return redirect('/gp2018/fim');
+                return redirect('/gp2019/fim');
             } else {
                 //Auth::guard('register')->loginById($login->id);
                 $errorRegister = 'Não foi possível identificar seu usuário, por favor verifique os dados preenchidos';
@@ -172,7 +228,7 @@ class RegisterController extends Controller
 
 
         //return view('site.finish', compact('register'));
-        return redirect('/gp2018/fim');
+        return redirect('/gp2019/fim');
     }
 
     public function finish(){
@@ -200,7 +256,7 @@ class RegisterController extends Controller
 
         // //dd($locais);
 
-        return view('site.encerrado', compact('winners'));
+        return view('site2019.encerrado', compact('winners'));
     }
 
     public function finishSemana(){

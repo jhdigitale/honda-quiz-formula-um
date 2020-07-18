@@ -33,6 +33,11 @@ class FeedbackController extends Controller
             $succesPage = "semana2019.gabarito";
         }
 
+        if($page == "/gp2019") {
+            //$correctPage = 'semana2019.register';
+            $succesPage = "site2019.gabarito";
+        }
+
 
         $user = Auth::guard('register')->user();
 
@@ -78,7 +83,7 @@ class FeedbackController extends Controller
     public function gabaritoCorreto(){
 
         $register = Auth::guard('register')->user();
-        $questions = Question::where('quiz_id', '=', 1)->get();
+        $questions = Question::where('quiz_id', '=', 3)->get();
         $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
 
         $data['user'] = $register;
@@ -117,7 +122,7 @@ class FeedbackController extends Controller
             $i++;
         }
 
-        return PDF::loadView('site.gabarito-final', compact('data'))
+        return PDF::loadView('site2019.gabarito-final', compact('data'))
             ->stream();
 
     }
@@ -127,7 +132,9 @@ class FeedbackController extends Controller
         $register = Register::find($register->id);
         $register->correct = FeedbackController::getCorrect($register);
 
-        return view('site.finish', compact('register'));
+        return view('site2019.finish', compact('register'));
+
+        //return view('site.finish', compact('register'));
     }
 
     public function congratualtions(){
@@ -137,6 +144,10 @@ class FeedbackController extends Controller
 
         if($page == "/semana2019") {
             $sucessPage = "semana2019.congratulation";
+        }
+
+        if($page == "/gp2019") {
+            $sucessPage = "site2019.congratulation";
         }
 
         return view($sucessPage);
@@ -151,13 +162,23 @@ class FeedbackController extends Controller
             $sucessPage = "semana2019.embreve";
         }
 
+        if($page == "/site2019") {
+            $sucessPage = "site2019.embreve";
+        }
+
+
+        if($page == "/gp2019") {
+            $sucessPage = "site2019.embreve";
+        }
+
         return view($sucessPage);
     }
 
     public function getCorrect(Register $register){
 
-
-        $questions = Question::where('quiz_id', '=', 1)->get();
+        // TROCAR ID TODAS AS VEZES?
+        
+        $questions = Question::where('quiz_id', '=', 3)->get();
         $userAnswered = Awnsered::where('register_id', '=', $register->id)->get();
 
         $data['user'] = $register;

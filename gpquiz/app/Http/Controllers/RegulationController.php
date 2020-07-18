@@ -16,6 +16,10 @@ class RegulationController extends Controller
             $sucessPage = "semana2019.regulamento";
         }
 
+        if($page == "/gp2019") {
+            $sucessPage = "site2019.regulamento";
+        }
+
         return view($sucessPage);
 
     }

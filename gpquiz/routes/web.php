@@ -15,7 +15,7 @@
 // Site
 Route::get('/','RegisterController@home');
 
-
+/*
 Route::prefix('gp2018_bkp')->group(function(){
 
 
@@ -55,7 +55,7 @@ Route::prefix('gp2018_bkp')->group(function(){
 
 });
 
-Route::prefix('gp2018')->group(function(){
+Route::prefix('gp2018_bkp_results')->group(function(){
 
 
     Route::get('/regulamento','RegulationController@index');
@@ -77,8 +77,10 @@ Route::prefix('gp2018')->group(function(){
     // Admin
 
 });
+*/
 
-Route::prefix('semana')->group(function(){
+/*
+Route::prefix('semana_bkp_2019')->group(function(){
 
     // Site
     Route::get('/', function () {
@@ -163,17 +165,39 @@ Route::prefix('semana2019')->group(function(){
     // Route::get('/em-breve', 'FeedbackController@comingsoon');
 
 });
+*/
 
 Route::prefix('gp2019')->group(function(){
 
+    // Site
+    /*Route::get('/', function () {
+         return view('site2019.index');
+    });*/
+
+    //Route::get('/', 'FeedbackController@comingsoon');
 
     Route::get('/regulamento','RegulationController@index');
 
-    //TELA TEMPORÁRIA
-    Route::get('/em-breve', 'FeedbackController@comingsoon');
+    /*
+    Route::get('/cockpit','RegisterController@cockpit');
 
-    Route::get('/', 'RegisterController@finish');
+    Route::get('/regulamento','RegulationController@index');
 
+    Route::get('/cadastro', 'RegisterController@create')->name('cadastro');
+
+    Route::post('/cadastro', 'RegisterController@store');
+
+    Route::get('/perguntas', 'AwnseredController@index')->name('question_2019');
+
+    Route::post('/perguntas/{question}/salvar', 'AwnseredController@store');
+
+    Route::get('/gabarito', 'FeedbackController@index');
+
+    Route::get('/parabens', 'FeedbackController@congratualtions');
+
+    */
+
+    // Final
     Route::get('/login', 'RegisterController@login');
 
     Route::post('/login', 'RegisterController@storeLogin');
@@ -182,10 +206,13 @@ Route::prefix('gp2019')->group(function(){
 
     Route::get('/gabarito-final', 'FeedbackController@gabaritoCorreto');
 
+    Route::get('/encerrado', 'RegisterController@finish');
 
-    // Admin
-
+    //Route::get('/em-breve', 'FeedbackController@comingsoon');
+    
 });
+
+
 
 Route::prefix('admin')->group(function(){
 
@@ -276,6 +303,12 @@ Route::prefix('admin')->group(function(){
 
 });
 
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    dd($exitCode);
+    // return what you want
+});
+
 Auth::routes();
 
 //Route::get('/admin/register', function () {
@@ -289,6 +322,10 @@ Auth::routes();
 // Route::get('/boas-vindas', function () {
 //     return view('bemvindo2018.home');
 // });
+
+Route::get('/maioamarelo', function () {
+    return view('embed.index');
+});
 
 Auth::routes();
 

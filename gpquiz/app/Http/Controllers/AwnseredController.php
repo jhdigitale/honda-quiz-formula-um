@@ -32,6 +32,12 @@ class AwnseredController extends Controller
             $sucessPage = "semana2019.questions";
         }
 
+        if($page == "/gp2019") {
+            $errorPage = "/gp2019/cadastro";
+            $correctPage = "site2019.feedback";
+            $sucessPage = "site2019.questions";
+        }
+
         try{
             if(Auth::check()){
 
@@ -52,14 +58,10 @@ class AwnseredController extends Controller
 
                 $answeredsPosition = Awnsered::where($search)->get()->count();
 
-
-
                 $search = [
                     ['quiz_id', '=', $quizActive]
                 ];
-
-
-
+                
                 $questions = Question::where($search)->get();
                 //$question = Question::find($search)->get();
 
@@ -103,6 +105,10 @@ class AwnseredController extends Controller
         $sucessPage = "question";
 
         if($page == "/semana2019") {
+            $sucessPage = "question_2019";
+        }
+
+        if($page == "/gp2019") {
             $sucessPage = "question_2019";
         }
 
